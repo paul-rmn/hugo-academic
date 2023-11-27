@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Academic</title>
+    <link>https://ramonmn.com/new/publication/</link>
+      <atom:link href="https://ramonmn.com/new/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ramonmn.com/new/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://ramonmn.com/new/publication/</link>
+    </image>
+    
+    <item>
+      <title>Strong Subconvexity for Self-Dual GL(3) L-Functions</title>
+      <link>https://ramonmn.com/new/publication/linetal-2022-strong/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/linetal-2022-strong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moments of the Distribution of $k$-Free Numbers in Short Intervals and Arithmetic Progressions</title>
+      <link>https://ramonmn.com/new/publication/m-nunes-2022-moments/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/m-nunes-2022-moments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral Reciprocity via Integral Representations</title>
+      <link>https://ramonmn.com/new/publication/nunes-2021-spectral/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2021-spectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral Reciprocity for GL$(n)$ and Simultaneous Non-Vanishing of Central $L$-Values</title>
+      <link>https://ramonmn.com/new/publication/jananunes-2021-spectral/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/jananunes-2021-spectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Twelfth Moment of Dirichlet L-functions with Smooth Moduli</title>
+      <link>https://ramonmn.com/new/publication/nunes-2021-twelfth/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2021-twelfth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Least Squarefree Number in an Arithmetic Progression</title>
+      <link>https://ramonmn.com/new/publication/nunes-2017-least/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2017-least/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Bourgain&#39;s bound for short exponential sums and squarefree numbers</title>
+      <link>https://ramonmn.com/new/publication/nunes-2016-bourgain/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2016-bourgain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Squarefree Numbers in Arithmetic Progressions</title>
+      <link>https://ramonmn.com/new/publication/nunes-2015-squarefree/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2015-squarefree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Equidistribution problems of squarefree numbers</title>
+      <link>https://ramonmn.com/new/publication/nunesequidistribution/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunesequidistribution/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

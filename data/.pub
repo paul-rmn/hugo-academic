@@ -1,0 +1,17 @@
+@article{nunes2017least,
+  title = {On the {{Least Squarefree Number}} in an {{Arithmetic Progression}}},
+  author = {Nunes, R. M.},
+  date = {2017},
+  journaltitle = {Mathematika},
+  volume = {63},
+  number = {2},
+  pages = {483--498},
+  issn = {2041-7942},
+  doi = {10.1112/S0025579317000043},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1112/S0025579317000043},
+  urldate = {2023-06-23},
+  abstract = {We prove an asymptotic formula for squarefree numbers in arithmetic progressions, improving previous results by Prachar and Hooley. As a consequence we improve a lower bound of Heath-Brown for the least squarefree number in an arithmetic progression.},
+  langid = {english},
+  keywords = {11A07 (secondary),11N37 (primary)},
+  file = {/Users/ramon/Zotero/storage/W75N9GTN/Nunes - 2017 - On the Least Squarefree Number in an Arithmetic Pr.pdf;/Users/ramon/Zotero/storage/4KEKFKK2/S0025579317000043.html}
+}

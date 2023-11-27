@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic</title>
+    <link>https://ramonmn.com/new/</link>
+      <atom:link href="https://ramonmn.com/new/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ramonmn.com/new/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Academic</title>
+      <link>https://ramonmn.com/new/</link>
+    </image>
+    
+    <item>
+      <title>Results concerning automorphic forms and L-functions of higher rank</title>
+      <link>https://ramonmn.com/new/post/livetex/paul-london-sep23/</link>
+      <pubDate>Thu, 14 Sep 2023 21:22:00 +0100</pubDate>
+      <guid>https://ramonmn.com/new/post/livetex/paul-london-sep23/</guid>
+      <description>&lt;h1 class=&#34;unnumbered&#34;
+id=&#34;motivating-goal-subconvexity-for-twists&#34;&gt;Motivating goal:
+Subconvexity for twists&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(F\)&lt;/span&gt; is a number field. &lt;span
+class=&#34;math inline&#34;&gt;\(\pi:\mathrm{GL}_n\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\chi:\mathrm{GL}_1\)&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\begin{align}
+\label{subconvex-twists}
+  L(\pi\times\chi,&amp;amp;1/2)\ll_\pi C(\chi)^{n/4-\delta}\tag{$\star$} \\
+                  &amp;amp;\Bigg\updownarrow
+                   \substack{\text{(Lapid-Mao) $n$ is even,
+                    $\pi$ comes from $\mathrm{SO}(n+1)$},\\
+                       \text{$\chi$ quadratic,
+$C_\mathrm{fin}(\chi)\approx\square$-free}}\notag\\
+    \text{Fourier} &amp;amp; \text{ coefficients on $Mp_n$}\notag
+\end{align}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;thm&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt; (N., 2021). &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\eqref{subconvex-twists}\)&lt;/span&gt; for &lt;span
+class=&#34;math inline&#34;&gt;\(\chi=|\cdot|^{it}\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(F=\mathbb{Q}\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;thm&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt; (Yueke Hu, PN, today). &lt;em&gt;variant of
+&lt;span class=&#34;math inline&#34;&gt;\(\eqref{subconvex-twists}\)&lt;/span&gt; for &lt;span
+class=&#34;math inline&#34;&gt;\(C_\mathrm{fin}(\chi)=\square\)&lt;/span&gt;,
+&lt;em&gt;e.g.&lt;/em&gt; &lt;span class=&#34;math inline&#34;&gt;\(p^2\rightarrow
+\infty\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Subconvexity for &lt;span
+class=&#34;math inline&#34;&gt;\(L(\pi\times\check{\sigma},1/2)\)&lt;/span&gt;, where
+&lt;span class=&#34;math inline&#34;&gt;\(\pi:\mathrm{GL}_{n+1}\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\sigma:\mathrm{GL}_n\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(|F|\ni \mathfrak{p}\)&lt;/span&gt;&lt;br /&gt;
+Assuming:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;bounded ramification outside &lt;span
+class=&#34;math inline&#34;&gt;\(\mathfrak{p}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\mathfrak{p}\)&lt;/span&gt; finite of norm
+&lt;span class=&#34;math inline&#34;&gt;\(\mathfrak{q}\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;principal series: &lt;span
+class=&#34;math inline&#34;&gt;\(\pi_\mathfrak{p}=\chi_1\boxplus\ldots\boxplus\chi_{n+1}\)&lt;/span&gt;,
+&lt;span
+class=&#34;math inline&#34;&gt;\(\sigma_\mathfrak{p}=\eta_1\boxplus\ldots\boxplus\eta_n\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;uniform growth: &lt;span
+class=&#34;math inline&#34;&gt;\(C(\chi_i/\eta_j)=T\)&lt;/span&gt; (&lt;span
+class=&#34;math inline&#34;&gt;\(\Leftrightarrow\mathrm{Cond}(\pi\times\check{\sigma})=T^{n(n+1)}\)&lt;/span&gt;),
+where&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(T=\)&lt;/span&gt; max analytic conductor of
+&lt;span class=&#34;math inline&#34;&gt;\(\chi_i\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\eta_j\)&lt;/span&gt; &lt;span
+class=&#34;math inline&#34;&gt;\(=\)&lt;/span&gt; power of &lt;span
+class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Even depth &lt;span
+class=&#34;math inline&#34;&gt;\(T=\mathfrak{q}^{2m}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;comes from &lt;span class=&#34;math inline&#34;&gt;\(U(n+1)\times U(n)\)&lt;/span&gt;
+(something about anisotropic)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;thm*&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt; (N., 2020-2023). &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\mathfrak{p}\)&lt;/span&gt; archimedean, remove (3),
+(5)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;thm*&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt; (N., 2021). &lt;em&gt;remove (6), &lt;span
+class=&#34;math inline&#34;&gt;\(\sigma\)&lt;/span&gt; Eisenstein.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Marshall:&lt;/strong&gt; &lt;span
+class=&#34;math inline&#34;&gt;\(\mathfrak{p}\)&lt;/span&gt; fixed, &lt;span
+class=&#34;math inline&#34;&gt;\(C(\chi_i/\chi_j)=C(\eta_i/\eta)=T\)&lt;/span&gt;, for
+&lt;span class=&#34;math inline&#34;&gt;\(i\neq j\)&lt;/span&gt; (wall-avoidance)&lt;/p&gt;
+&lt;h1 class=&#34;unnumbered&#34; id=&#34;proof-scheme&#34;&gt;Proof scheme&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\pi:G=\mathrm{GL}(n+1)\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\sigma:H=\mathrm{GL}(n)\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Choose &lt;span class=&#34;math inline&#34;&gt;\(u\in\sigma\)&lt;/span&gt; Estimate both
+sides: &lt;span class=&#34;math inline&#34;&gt;\(\omega\in
+C_c^\infty(G(\mathbb{A}))\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+class=&#34;math display&#34;&gt;\[\sum_\pi|L^{(\mathfrak{p})}(\pi\times\check{\sigma},1/2)|^2\sum_{v\in\mathcal{B}(\pi_\mathfrak{p})}
+\int_{h\in H(F_\mathfrak{p})}\langle h\pi(\omega)v,v\rangle\langle
+u,hu\rangle\mathrm{d}h=(\ldots)\]&lt;/span&gt; This is called the spectral
+side&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[(\ldots)=\int_{x,y\in H(F)\backslash
+H(\mathbb{A})}u(x)\overline{u(y)}\sum_{\gamma\in G(F)}
+  \omega(x^{-1}\gamma y)\mathrm{d}x\mathrm{d}y\]&lt;/span&gt;&lt;/p&gt;
+&lt;h2 class=&#34;unnumbered&#34; id=&#34;spectral-side&#34;&gt;Spectral side&lt;/h2&gt;
+&lt;p&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\mathfrak{p}\subseteq\mathfrak{o}\)&lt;/span&gt; (local)
+&lt;span class=&#34;math display&#34;&gt;\[1\neq \psi:
+\mathfrak{p}/\mathfrak{p}^2\rightarrow U(1)\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\chi:\mathrm{GL}_1(\mathfrak{o}/\mathfrak{p}^2)\rightarrow\mathbb{C}^{\ast}\leadsto\xi_\chi\in\mathfrak{o}/\mathfrak{p}\]&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\chi(1+x)=\psi(\xi_\chi x),\,\forall
+x\in\mathfrak{p}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+class=&#34;math display&#34;&gt;\[G,H,M,M_H=\mathrm{GL}_{n+1},\mathrm{GL}_n,\operatorname{Mat}_{n+1},
+\operatorname{Mat}_n\]&lt;/span&gt; &lt;span class=&#34;math display&#34;&gt;\[\tau\in
+M(\mathfrak{o}/\mathfrak{p}),\quad \pi=\text{representation of }
+G(\mathfrak{o}/\mathfrak{p}^2)\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Call &lt;span class=&#34;math inline&#34;&gt;\(v\in \pi\)&lt;/span&gt; &lt;em&gt;localized&lt;/em&gt;
+at &lt;span class=&#34;math inline&#34;&gt;\(\tau\)&lt;/span&gt; if &lt;span
+class=&#34;math inline&#34;&gt;\(\forall x\in
+M(\mathfrak{o}/\mathfrak{p}^2)\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(x\equiv 0 \pmod{\mathfrak{p}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+class=&#34;math display&#34;&gt;\[\pi(1+x)v=\psi(\operatorname{trace}(x\tau))v\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;fact&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fact 1&lt;/strong&gt;. &lt;em&gt;“Often” &lt;span
+class=&#34;math inline&#34;&gt;\(\dim{|{v|}}=1\)&lt;/span&gt;. &lt;span
+class=&#34;math inline&#34;&gt;\(P_\pi:=P_\tau=\)&lt;/span&gt; characteristic polynomial
+depends only on &lt;span class=&#34;math inline&#34;&gt;\(\pi\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;example&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(P_{\chi}=t-\xi_t,\quad  P_{\boxplus
+\pi_i}=\prod_iP_{\pi_i}\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 class=&#34;unnumbered&#34; id=&#34;method-of-nelson-venkatesh&#34;&gt;Method of
+Nelson-Venkatesh:&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\forall (\pi,\sigma)\)&lt;/span&gt; of &lt;span
+class=&#34;math inline&#34;&gt;\((\mathrm{GL}_{n+1}(\mathfrak{o}/\mathfrak{p}^2),
+\mathrm{GL}_n(\mathfrak{o}/\mathfrak{p}^2))\)&lt;/span&gt; with &lt;span
+class=&#34;math inline&#34;&gt;\((P_\pi,P_\sigma)=(1)\)&lt;/span&gt;, there exists &lt;span
+class=&#34;math display&#34;&gt;\[\begin{pmatrix}\tau_H&amp;amp;\ast\\\ast&amp;amp;\ast\end{pmatrix}=\tau\in
+M(\mathfrak{o}/\mathfrak{p}),\quad  \tau_H\in  M_H(\mathfrak{o}/\mathfrak{p})\]&lt;/span&gt;
+such that &lt;span class=&#34;math inline&#34;&gt;\(P_\tau=P_\pi\)&lt;/span&gt; and &lt;span
+class=&#34;math inline&#34;&gt;\(P_{\tau_H}=P_\sigma\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;There exists unit vectors &lt;span class=&#34;math inline&#34;&gt;\(v\in\pi,\,u\in
+\sigma\)&lt;/span&gt; localized at &lt;span
+class=&#34;math inline&#34;&gt;\(\tau,\tau_H\)&lt;/span&gt;, respectively, such that for
+&lt;span class=&#34;math inline&#34;&gt;\(h\in
+H(\mathfrak{o}/\mathfrak{p}^2)\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\langle hv,v\rangle\langle u,hu\rangle=
+  \begin{cases}
+    1\text{ if }h\equiv 1\pmod{\mathfrak{p}},\\
+    0\text{ else}.
+  \end{cases}\]&lt;/span&gt; (+ something similar over local fields)&lt;/p&gt;
+&lt;h2 class=&#34;unnumbered&#34;
+id=&#34;geometric-side-after-cauchy-schwarz&#34;&gt;Geometric side after
+Cauchy-schwarz&lt;/h2&gt;
+&lt;p&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(F=\mathfrak{o}/\mathfrak{p}=\mathbb{F}_q\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[G,H,M,M_H=\text{ points over
+}F\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\tau\in M,e=\begin{pmatrix}0\\
+\vdots\\0\\1\end{pmatrix},
+e^{\ast}=\begin{pmatrix}0\!&amp;amp;\!\ldots\!&amp;amp;\!0\!&amp;amp;\!1\end{pmatrix}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;lem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Lemma 1&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math display&#34;&gt;\[(P_\tau,P_{\tau_H})=(1)\Leftrightarrow
+  e,e^\ast:\tau-\text{cyclic}\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dfn&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definition 1&lt;/strong&gt;. &lt;em&gt;If any (hence both) of the above
+holds, we say that &lt;span class=&#34;math inline&#34;&gt;\(\tau\)&lt;/span&gt; is
+&lt;em&gt;stable&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;For &lt;span class=&#34;math inline&#34;&gt;\(\tau\in M_{\text{stable}}, a\in
+G_\tau\)&lt;/span&gt;, then the set &lt;span
+class=&#34;math display&#34;&gt;\[X_{\tau,a}=\{y=H_{\tau_H}:ay\in
+HG_\tau\}\]&lt;/span&gt; is a &lt;em&gt;closed subscheme&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;thm&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt; (HN). &lt;em&gt;Assume &lt;span
+class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; is odd, &lt;span
+class=&#34;math inline&#34;&gt;\(n+1\neq 3\)&lt;/span&gt;. Then &lt;span
+class=&#34;math display&#34;&gt;\[\frac{X_{\tau,a}}{H_{\tau_H}}\ll \frac{1}{q}
+\Leftarrow X_{\tau,a}\neq H_{\tau_H}\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\mu(y)\nu(y^{-1})=1\)&lt;/span&gt;, where &lt;span
+class=&#34;math inline&#34;&gt;\(\mu,\nu:M_{H,\tau_H}\rightarrow
+M_{\tau}\Big|_{\substack{e^\ast\mu(x)=e^\ast
+axa^{-1}\\\nu(x)e=axa^{-1}e}}\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;lem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Lemma 2&lt;/strong&gt;. &lt;em&gt;If &lt;span
+class=&#34;math inline&#34;&gt;\(X_{\tau,a}=H_{\tau_H}\)&lt;/span&gt; then, &lt;span
+class=&#34;math display&#34;&gt;\[\begin{align}
+    \mu&amp;amp;=\nu \label{lin}\tag{linear} \\
+    \mu(xy)&amp;amp;=\mu(x)\mu(y) \label{quad}\tag{quadratic}
+\end{align}\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thm4&#34; class=&#34;thm&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 4&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\eqref{lin} \Leftrightarrow a^2\in
+Z\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thm5&#34; class=&#34;thm&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Theorem 5&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\eqref{lin}+\eqref{quad}\)&lt;/span&gt; &lt;span
+class=&#34;math inline&#34;&gt;\(\Leftrightarrow a\in Z\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proof&#34;&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; (of Theorem &lt;a href=&#34;#thm4&#34; data-reference-type=&#34;ref&#34;
+data-reference=&#34;thm4&#34;&gt;4&lt;/a&gt;) Let &lt;span
+class=&#34;math inline&#34;&gt;\(A_j=e^{\ast}\tau^jae\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(B_j=e^{\ast}\tau^ja^{-1}e\)&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\mu(\mathbf{1}_H)-v(\mathbf{1}_H)=B_0a-A_0a^{-1}\]&lt;/span&gt;
+If either &lt;span class=&#34;math inline&#34;&gt;\(B_0\neq 0\)&lt;/span&gt; or &lt;span
+class=&#34;math inline&#34;&gt;\(A_0\neq 0\)&lt;/span&gt; then &lt;span
+class=&#34;math inline&#34;&gt;\(a^2\in Z\)&lt;/span&gt;. Else continue with &lt;span
+class=&#34;math inline&#34;&gt;\(\tau_H,\tau_H^2,\tau_H^3,\ldots\)&lt;/span&gt; ◻&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;For Theorem &lt;a href=&#34;#thm5&#34; data-reference-type=&#34;ref&#34;
+data-reference=&#34;thm5&#34;&gt;5&lt;/a&gt;, use that &lt;span
+class=&#34;math inline&#34;&gt;\(\mu(\mathbf{1}_H)^2=\mu(\mathbf{1}_H)\)&lt;/span&gt;,
+&lt;span class=&#34;math inline&#34;&gt;\(\tau^2+c_1\tau+c_0=0\)&lt;/span&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notas do curso de Análise complexa</title>
+      <link>https://ramonmn.com/new/project/notas/</link>
+      <pubDate>Thu, 14 Sep 2023 14:35:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/project/notas/</guid>
+      <description>&lt;p&gt;aaaaa&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise complexa - aula 6</title>
+      <link>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-6/</link>
+      <pubDate>Tue, 12 Sep 2023 10:37:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-6/</guid>
+      <description>&lt;h2 id=&#34;fórmula-de-cauchy&#34;&gt;Fórmula de Cauchy&lt;/h2&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 1&lt;/strong&gt;. &lt;em&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(f:
+\Omega \rightarrow \mathbb{C}\)&lt;/span&gt; uma função holomorfa e seja &lt;span
+class=&#34;math inline&#34;&gt;\(D = D_{\delta}(z_0)\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\overline{D} \subseteq \Omega\)&lt;/span&gt;. Se &lt;span
+class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; denota o bordo de D no sentindo
+positivo. Então, &lt;span class=&#34;math display&#34;&gt;\[f(z) =
+\dfrac{1}{2i\pi}\int_C \dfrac{f(z)}{w-z}dw , \forall z \in
+D.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;PV. Observe que a função &lt;span class=&#34;math inline&#34;&gt;\(f(w) =
+\dfrac{f(w)}{w-z}\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega - \{z\}\)&lt;/span&gt;. Em particular ela é
+holomorfa no interior do contorno &lt;span
+class=&#34;math inline&#34;&gt;\(\Gamma_{\delta , \epsilon}\)&lt;/span&gt;. Logo, pelo
+teorema de Cauchy, &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\Gamma_{\delta,\epsilon}}F(w)dw =
+0.\]&lt;/span&gt; Fazendo &lt;span class=&#34;math inline&#34;&gt;\(\epsilon \rightarrow
+0\)&lt;/span&gt;, obtemos que : &lt;span class=&#34;math display&#34;&gt;\[\lim_{\epsilon
+\rightarrow 0} \int_{\Gamma_{\delta , \epsilon}}F(w) dw  =
+\int_{C}F(w)dw - \int_{C_{\delta}}F(w)dw+\int_{\gamma_0}F(w)dw -
+\int_{\gamma_0}F(w)dw\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\Rightarrow \lim_{\epsilon \rightarrow
+0} \int_{\Gamma_{\delta , \epsilon}}F(w) dw  = \int_C
+\dfrac{f(w)}{w-z}dw - \int_{C_{\delta}}\dfrac{f(w)}{w-z},\]&lt;/span&gt; onde
+&lt;span class=&#34;math inline&#34;&gt;\(\gamma_0\)&lt;/span&gt; é o segmento do raio que
+passa por &lt;span class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; e liga &lt;span
+class=&#34;math inline&#34;&gt;\(C_{\delta}\)&lt;/span&gt; a &lt;span
+class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt;. Como a igualdade acima é independente
+de &lt;span class=&#34;math inline&#34;&gt;\(\delta\)&lt;/span&gt; temos que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{C}\dfrac{f(w)}{w-z}dw = \lim_{\delta
+\rightarrow 0} \int_{C_{\delta}} \dfrac{f(w)}{w-z}dw.\]&lt;/span&gt; Como
+&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt;, dado &lt;span
+class=&#34;math inline&#34;&gt;\(\epsilon &amp;gt;0, \exists \delta &amp;gt; 0\)&lt;/span&gt; tal
+que se &lt;span class=&#34;math inline&#34;&gt;\(|w-z| \leqslant \delta,\)&lt;/span&gt;
+então &lt;span class=&#34;math display&#34;&gt;\[\left| \dfrac{f(w)-f(z)}{w-z} -
+f&amp;#39;(z) \right| &amp;lt; \epsilon .\]&lt;/span&gt; Isto implica que &lt;span
+class=&#34;math display&#34;&gt;\[\left| \int_{C_{\delta}} \left( \dfrac{f(w)}{w-z}
+- \dfrac{f(z)}{w-z} - f&amp;#39;(z) \right) dw \right| &amp;lt; 2 \pi \epsilon
+\delta .\]&lt;/span&gt; Mas, observe que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{C_{\delta}}\dfrac{f(z)}{w-z}dw = f(z)
+\int_{C_{\delta}} \dfrac{dw}{w-z} = f(z) \int_0^{2 \pi} \dfrac{i \delta
+e^{i \theta}}{\delta e^{i \theta}}d \theta = 2 \pi i f(z)\]&lt;/span&gt;. Além
+disso, sabemos que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{C_{\delta}}f&amp;#39;(z) dw = 0\]&lt;/span&gt; Logo,
+podemos concluir que &lt;span class=&#34;math display&#34;&gt;\[\left|
+\int_{C_{\delta}} \dfrac{f(w)}{w-z}dw - 2 \pi i f(z) \right| = \left|
+\int_{C_{\delta}} \left( \dfrac{f(w) - f(z)}{w-z} - f&amp;#39;(z) \right) dw
+\right| &amp;lt; 2 \pi \epsilon \delta &amp;lt; 2 \pi \epsilon.\]&lt;/span&gt; Note
+que a última igualdade vem do fato que poderiamos ter tomado &lt;span
+class=&#34;math inline&#34;&gt;\(\delta &amp;lt; 1.\)&lt;/span&gt; Portanto , &lt;span
+class=&#34;math display&#34;&gt;\[\lim_{\delta \rightarrow 0}\int_{C_{\delta}}
+\dfrac{f(z)}{w-z}dw = 2 \pi i f(z).\]&lt;/span&gt; Concluímos a demonstração
+lembrando que &lt;span class=&#34;math inline&#34;&gt;\(\int_C
+\dfrac{f&amp;#39;(z)}{w-z}dw =
+\int_{C_{\delta}}\dfrac{f(w)}{w-z}dw\)&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;corolários&#34;&gt;Corolários&lt;/h2&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 1&lt;/strong&gt;. &lt;em&gt;Sob as mesmas hipóteses do teorema,
+temos &lt;span class=&#34;math display&#34;&gt;\[f^{(n)}(z) = \dfrac{n!}{2i\pi}\int_C
+\dfrac{f(z)}{(w-z)^{n+1}}dw , \forall z \in D.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;PV. Seja &lt;span class=&#34;math inline&#34;&gt;\(z \in \Omega\)&lt;/span&gt; e h
+suficientemente pequeno de modo que &lt;span class=&#34;math inline&#34;&gt;\(z+h \in
+D.\)&lt;/span&gt; Então, &lt;span class=&#34;math display&#34;&gt;\[f(z+h)-f(z) =
+\dfrac{1}{2 \pi i} \int_{C} \dfrac{f(z)}{w-z-h}dw - \dfrac{1}{2\pi
+i}\int_C \dfrac{f(w)}{w-z}dw\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\Rightarrow f(z+h)-f(z) = \dfrac{1}{2\pi i}
+\int_C f(w) \left[ \dfrac{1}{w-z-h}- \dfrac{1}{w-z} \right] dw.\]&lt;/span&gt;
+Observe que &lt;span class=&#34;math inline&#34;&gt;\(\dfrac{1}{w-z-h}-
+\dfrac{1}{w-z}  = \dfrac{h}{(w-z)(w-z-h)}\)&lt;/span&gt;. Portanto, &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{f(z+h)-f(z)}{h} =  \int_C
+\dfrac{f(w)}{(w-z)(w-z-h)}dw\]&lt;/span&gt; Queremos mostrar que &lt;span
+class=&#34;math inline&#34;&gt;\(I_h \rightarrow I:= \int_C
+\dfrac{f(w)}{(w-z)^2}dw\)&lt;/span&gt; quando &lt;span class=&#34;math inline&#34;&gt;\(h
+\rightarrow 0\)&lt;/span&gt;. De fato, &lt;span class=&#34;math display&#34;&gt;\[I_h-I  =
+\int_C \dfrac{f(w)}{w-z}\left( -\dfrac{1}{w-z-h}+ \dfrac{1}{w-z} \right)
+dw = \int_C \dfrac{f(w)h}{(w-z)^2(w-z-h)}dw\]&lt;/span&gt; Então, se &lt;span
+class=&#34;math inline&#34;&gt;\(|h|&amp;lt; \dfrac{|w-z|}{2},\)&lt;/span&gt; temos: &lt;span
+class=&#34;math display&#34;&gt;\[\left| \dfrac{f(w)h}{(w-z)^2(w-z-h)} \right|
+\leqslant \dfrac{2 \sup_{w \in C}|f(w)| \cdot |h|}{|w-z|^3} \leqslant M
+\cdot |h|\]&lt;/span&gt; Onde M é uma constante. Lembre que &lt;span
+class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; estão fixos. Portanto: &lt;span
+class=&#34;math inline&#34;&gt;\(|I - I_h| \leqslant M \cdot |h| \cdot l(c)
+\leqslant M&amp;#39; |h|,\)&lt;/span&gt; onde &lt;span
+class=&#34;math inline&#34;&gt;\(M&amp;#39;\)&lt;/span&gt; é uma outra constante. Com isso
+concluímos que &lt;span class=&#34;math inline&#34;&gt;\(I_h \rightarrow I\)&lt;/span&gt;
+quando &lt;span class=&#34;math inline&#34;&gt;\(h \rightarrow 0\)&lt;/span&gt; e
+completamos a prova para &lt;span class=&#34;math inline&#34;&gt;\(n = 1.\)&lt;/span&gt;
+Vamos agora considerar o caso geral. Ultilizaremos indução. O caso
+inicial(&lt;span class=&#34;math inline&#34;&gt;\(n =0\)&lt;/span&gt;) é a fórmula de Cauchy
+(e o caso &lt;span class=&#34;math inline&#34;&gt;\(n = 1\)&lt;/span&gt; foi demonstrado).
+Suponha agora que a fórmula seja válida para um certo valor &lt;span
+class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;, isto é: &lt;span
+class=&#34;math display&#34;&gt;\[f^{(n)}(z) = \dfrac{n!}{2i\pi}\int_C
+\dfrac{f(z)}{(w-z)^{n+1}}dw , \forall z \in D.\]&lt;/span&gt; Seja, mais uma
+vez, &lt;span class=&#34;math inline&#34;&gt;\(h\)&lt;/span&gt; suficientemente pequeno,
+temos&lt;/p&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 2&lt;/strong&gt;. &lt;em&gt;Seja f holomorfa em um aberto
+contendo um disco &lt;span class=&#34;math inline&#34;&gt;\(D = D_R(z_0)\)&lt;/span&gt; e
+seja C o seu bordo. Então vale a desigualdade &lt;span
+class=&#34;math display&#34;&gt;\[|f^{(n)}(z_0)| \leqslant \dfrac{n! \cdot \sup_{w
+\in C}|f(w)|}{R^n}\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;PV. Pelo corolário acima, &lt;span class=&#34;math display&#34;&gt;\[f^{(n)}(z) =
+\dfrac{n!}{2i\pi}\int_C \dfrac{f(z)}{(w-z)^{n+1}}dw\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\Rightarrow |f^{(n)}(z_0)| \leqslant
+\dfrac{n!}{2\pi} \cdot \dfrac{\sup_{w \in C}|f(w)|}{R^{n+1}} \cdot 2\pi
+R\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 3&lt;/strong&gt;. &lt;em&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(f:
+\Omega \rightarrow \mathbb{C}\)&lt;/span&gt; uma função holomorfa definida em
+um aberto &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;. Se D é um disco
+aberto do centro &lt;span class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt;, contido em
+&lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; então f possui uma
+representação em série de potências em torno de &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; no disco D, dada por &lt;span
+class=&#34;math display&#34;&gt;\[f(z) = \sum_{n=0}^{\infty}a_n(z-z_0)^n\]&lt;/span&gt;
+Além disso, os coeficientes são dados pela seguinte fórmula: &lt;span
+class=&#34;math display&#34;&gt;\[a_n = \dfrac{f^{(n)}(z_0)}{n!} ,(n \geqslant
+0).\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;PV. Observe que &lt;span class=&#34;math display&#34;&gt;\[\dfrac{1}{w-z} =
+\dfrac{1}{(w-z_0)-(z-z_0)} = \dfrac{1}{w-z}\left( \dfrac{1}{1-
+\dfrac{z-z_0}{w-z_0}} \right).\]&lt;/span&gt; Como &lt;span
+class=&#34;math inline&#34;&gt;\(z \in D\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(r &amp;lt; 1\)&lt;/span&gt; tal que &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{|z-z_0|}{w-z_0}&amp;lt;r&amp;lt;1.\]&lt;/span&gt; Em
+particular, temos pela série geométrica que &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{1}{1- \dfrac{z-z_0}{w-z_0}} =
+\sum_{n=0}^{\infty} \left( \dfrac{z-z_0}{w-z_0} \right) ^n ,\]&lt;/span&gt;
+com convergência uniforme em relação a w. Portanto, pela fórnula de
+Cauchy, temos : &lt;span class=&#34;math display&#34;&gt;\[f(z) = \dfrac{1}{2\pi i}
+\int_{C}\dfrac{f(z)}{w-z}dw\]&lt;/span&gt; &lt;span class=&#34;math display&#34;&gt;\[f(z) =
+\dfrac{1}{2\pi i}\int_{C} \dfrac{f(w)}{w-z_0}\sum_{n=0}^{+\infty} \left(
+\dfrac{z-z_0}{w-z_0} \right)^n dw\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[f(z) = \sum_{n=0}^{+\infty}(z-z_0)^n \cdot
+\dfrac{1}{2\pi i } \int_C \dfrac{f(w)}{(w-z_0)^{n+1}}dw\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[f(z) = \sum_{n=0}^{+\infty}\dfrac{f^(n)(z_0)}{n!}
+\cdot (z-z_0)^n ,\]&lt;/span&gt; onde, no último passo, utilizaremos o
+primeiro corolário decorrente das fórmulas de Cauchy.  &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Análise complexa - aula 5</title>
+      <link>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-5/</link>
+      <pubDate>Tue, 12 Sep 2023 10:36:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-5/</guid>
+      <description>&lt;p&gt;Na aula passada, vimos que se &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;
+é holomorfa em um dimínio contendo um triângulo T em seu interior, então
+&lt;span class=&#34;math display&#34;&gt;\[\int_{T}f(z)dz = 0.\]&lt;/span&gt; Agora, vamos
+usar esse resultado para provar o teorema seguinte.&lt;/p&gt;
+&lt;h2 id=&#34;existência-da-primitiva&#34;&gt;Existência da primitiva&lt;/h2&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 1&lt;/strong&gt;. &lt;em&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(D =
+D_R(z_0)\)&lt;/span&gt; um disco aberto e seja &lt;span class=&#34;math inline&#34;&gt;\(f:
+D \rightarrow \mathbb{C}\)&lt;/span&gt; uma fração holomorfa. Então &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; possui uma primitiva em &lt;span
+class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Prova: Dado &lt;span class=&#34;math inline&#34;&gt;\(z \in D\)&lt;/span&gt;, defina
+&lt;span class=&#34;math display&#34;&gt;\[F(z) = \int_{\gamma}f(w)dw ,\]&lt;/span&gt; onde
+&lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; é o segmento ligando &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; a &lt;span
+class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt;. Tome &lt;span class=&#34;math inline&#34;&gt;\(h \in
+\mathbb{C}\)&lt;/span&gt; pequeno suficiente de modo que &lt;span
+class=&#34;math inline&#34;&gt;\(z+h \in D\)&lt;/span&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;Olhando para o triângulo cujos vértices são &lt;span
+class=&#34;math inline&#34;&gt;\(z_0,z,z+h\)&lt;/span&gt; e usando o Teorema de
+Goursat,temos: &lt;span class=&#34;math display&#34;&gt;\[F(z)+\int_{\gamma_{h}}f(w)dw
+- F(z+h) = 0,\]&lt;/span&gt; onde &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma_{h}\)&lt;/span&gt; é o segmento de reta ligando
+&lt;span class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; a &lt;span
+class=&#34;math inline&#34;&gt;\(z+h\)&lt;/span&gt;.Note que assumimos que os pontos não
+são colineares. O caso que eles são colineares é trivial.Ou seja, &lt;span
+class=&#34;math inline&#34;&gt;\(F(z+h)-F(z) = \int_{\gamma_h}f(w)dw\)&lt;/span&gt;. Como
+&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é contínua e &lt;span
+class=&#34;math inline&#34;&gt;\(|z-w|&amp;lt;|h|, \forall w \in \gamma_h\)&lt;/span&gt;,
+dado &lt;span class=&#34;math inline&#34;&gt;\(\epsilon &amp;gt;0\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(\delta\)&lt;/span&gt; tal que se &lt;span
+class=&#34;math inline&#34;&gt;\(|h|&amp;lt; \delta\)&lt;/span&gt;, então &lt;span
+class=&#34;math inline&#34;&gt;\(|f(w)-f(z)|&amp;lt; \epsilon .\)&lt;/span&gt;
+Consequentemente, &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma_h}f(w)dw=\int_{\gamma_h}f(z)dw+\int_{\gamma}(f(w)-f(z))dw\]&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[= f(z)\cdot [(z+h)-z]+I,\]&lt;/span&gt; onde
+&lt;span class=&#34;math inline&#34;&gt;\(|I| \leqslant \epsilon |h|.\)&lt;/span&gt;Logo,
+&lt;span class=&#34;math display&#34;&gt;\[\left| \dfrac{F(z+h)-F(z)}{h}-f(z)
+\right|&amp;lt; \epsilon.\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 1&lt;/strong&gt;. &lt;em&gt;Se f é holomorfa em um disco &lt;span
+class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; é um caminho fechado contido em D.
+Então , &lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz =
+0.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Prova: Como &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; possui primitiva,
+segue de &lt;span class=&#34;math inline&#34;&gt;\((Referencia)\)&lt;/span&gt; teorema da
+aula passada.&lt;/p&gt;
+&lt;h2 id=&#34;interior&#34;&gt;Interior&lt;/h2&gt;
+&lt;p&gt;Ainda não definimos o que significa o &lt;span
+class=&#34;math inline&#34;&gt;\(\textbf{interior}\)&lt;/span&gt; de uma curva,
+entretanto, para algumas curvas, essa noção é clara. Por exemplo:&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;./contornos.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Assuma por hoje que para as regioes acima, vale o seguinte:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;O interior está bem definido;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\int_{\gamma}f(w)dw\)&lt;/span&gt;
+independe do caminho poligonal &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; escolhido.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Com estas hipóteses podemos repetir a prova de teorema do começo da
+aula e deduzir que &lt;span class=&#34;math inline&#34;&gt;\(F\)&lt;/span&gt; é uma
+primitiva de &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;.Em particular, dado
+qualquer caminho fechado no interior de um dos exemplos acima, temos que
+&lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = 0.\]&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;aplicações-ao-cálculo-de-integrais&#34;&gt;Aplicações ao cálculo de
+integrais&lt;/h2&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\int_{-\infty}^{+\infty} e^{-\pi
+x^2} \cdot e^{-2\pi xy}dx = e^{-\pi y^2}.\]&lt;/span&gt;&lt;br /&gt;
+Como a funcão &lt;span class=&#34;math inline&#34;&gt;\(z \rightarrow e^{-\pi
+z^2}\)&lt;/span&gt; é holomorfa em todo o plano complexo &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{C}\)&lt;/span&gt;, temos que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = 0\]&lt;/span&gt; para toda curva
+fechada &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;. Considere o caso em
+que &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; é o retângulo cujos
+vértives são &lt;span class=&#34;math inline&#34;&gt;\(-R,R,R+iy,-R+iy\)&lt;/span&gt;. Sejam
+&lt;span class=&#34;math inline&#34;&gt;\(\gamma_1, \gamma_2,\gamma_3\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma_4\)&lt;/span&gt; os segmentos &lt;span
+class=&#34;math inline&#34;&gt;\([-R,R],[R,R+iy],[R+iy,-R+iy],[-R+iy,-R]\)&lt;/span&gt;,
+nesta ordem.&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma_1}f(z)dz =
+\int_{-R}^{R}e^{-\pi x^2}dx\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma_2}f(z)dz = \int_0^y e^{-\pi
+(R+ix)^2}dx\]&lt;/span&gt; &lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma_3}f(z)dz
+= \int_{-R}^R e^{-\pi (x^2+2ixy -y^2)}dx\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma_4}f(z)dz = \int_0^y e^{-\pi
+(-R+ix)^2}dx\]&lt;/span&gt; Observe que &lt;span class=&#34;math display&#34;&gt;\[\left|
+\int_{\gamma_2}f(z)dz \right|\leqslant \int_0^y e^{-\pi (R^2-x^2)}dx
+\leqslant \int_0^y e^{-\pi(R^2-y^2)}dx = ye^{\pi y^2} \cdot e^{-\pi
+R^2}\]&lt;/span&gt; Em particular, &lt;span
+class=&#34;math inline&#34;&gt;\(\int_{\gamma_2}f(z)dz \rightarrow 0\)&lt;/span&gt;
+quando &lt;span class=&#34;math inline&#34;&gt;\(R \rightarrow +\infty\)&lt;/span&gt;. De
+maneira análoga, &lt;span class=&#34;math inline&#34;&gt;\(\int_{\gamma_4}f(z)dz
+\rightarrow 0\)&lt;/span&gt; quando &lt;span class=&#34;math inline&#34;&gt;\(R \rightarrow
++\infty .\)&lt;/span&gt; Por fim , &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma_3}f(z)dz = -
+\int_{-R}^{R}e^{-\pi(x+iy)^2}dx = -e^{\pi y^2}
+\int_{-R}^Re^{-\pi(x^2+2ixy)}dx\]&lt;/span&gt; Fazendo &lt;span
+class=&#34;math inline&#34;&gt;\(R \rightarrow 0:\)&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\int_{-\infty}^{\infty}e^{-\pi x^2}dx - e^{\pi
+y^2} \int_{-\infty}^{\infty}e^{-\pi(x^2+2xyi)}dx = 0\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\Rightarrow \int_{-\infty}^{+\infty}e^{-\pi
+(x^2+2ixy)}= e^{-\pi y^2} \int_{-\infty}^{+\infty}e^{-\pi x^2}dx =
+e^{-\pi y^2}.\]&lt;/span&gt; Para ver que &lt;span
+class=&#34;math inline&#34;&gt;\(\int_{-\infty}^{+\infty}e^{-\pi x^2}dx =
+1\)&lt;/span&gt;, podemos, por exemplo, utilizar o teorema de Fubini: &lt;span
+class=&#34;math display&#34;&gt;\[I = \int e^{-\pi x^2}dx \Rightarrow I^2 = \int
+\int e^{-\pi (x^2+y^2)}dx dy ,\]&lt;/span&gt; usando coordenadas polares,
+&lt;span class=&#34;math display&#34;&gt;\[I^2 = \int_0^{2\pi} \int_0^{+\infty} r dr d
+\theta = 2\pi \left[ \dfrac{e^{-\pi x^2}}{-2\pi} \right]_0^{+\infty} =
+1\]&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span
+class=&#34;math display&#34;&gt;\[\int_0^{+\infty}\frac{1-\cos(x)}{x^2}dx =
+\frac{\pi}{2}.\]&lt;/span&gt; Note que &lt;span class=&#34;math inline&#34;&gt;\(\cos (x) =
+\frac{e^{ix}+e^{-ix}}{2}\)&lt;/span&gt;, então basta mostrar que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{-\infty}^{+\infty}\dfrac{1-e^{-ix}}{x^2} =
+\pi .\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; o contorno do
+semi-anel superior (&lt;span
+class=&#34;math inline&#34;&gt;\(\mathrm{Im}(z)&amp;gt;0\)&lt;/span&gt;) de raio interior
+&lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt; e exterior R.&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;Sejam &lt;span class=&#34;math inline&#34;&gt;\(\gamma_R\)&lt;/span&gt; o semicírculo de
+raio &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; partindo de &lt;span
+class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; e terminando em &lt;span
+class=&#34;math inline&#34;&gt;\(-R\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma_{\epsilon}\)&lt;/span&gt; o semicírculo de raio
+&lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt; partindo de &lt;span
+class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt; e terminando em &lt;span
+class=&#34;math inline&#34;&gt;\(-\epsilon\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma^-\)&lt;/span&gt; o segmento &lt;span
+class=&#34;math inline&#34;&gt;\([-R,-\epsilon]\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma^+\)&lt;/span&gt; o segmento &lt;span
+class=&#34;math inline&#34;&gt;\([\epsilon,R]\)&lt;/span&gt;. Observe que o integrando é
+dado por uma função holomorfa no interior da curva &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;. Logo, temos&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma}\frac{1-\cos
+z}{z^2}dz=0.\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Note que para todo &lt;span class=&#34;math inline&#34;&gt;\(z=x+iy\in
+\gamma_R\)&lt;/span&gt;, tem-se &lt;span class=&#34;math inline&#34;&gt;\(y&amp;gt;0\)&lt;/span&gt; e,
+portanto, vale a desigualdade &lt;span
+class=&#34;math display&#34;&gt;\[\left|\frac{1-e^{iz}}{z^2}\right|\leq
+\frac{1+|e^{iz}|}{z^2}=\frac{1+e^{-y}}{z^2}\leq \frac{2}{z^2}.\]&lt;/span&gt;
+E, portanto, &lt;span class=&#34;math display&#34;&gt;\[\begin{aligned}
+\left|\int_{\gamma_R}\frac{1-\cos z}{z^2}dz \right|&amp;amp;\leq \sup_{z\in
+\gamma_R}\left(\frac{2}{|z|^2} \right)\cdot \pi R\\
+&amp;amp;=\frac{2\pi R}{R^2}=\frac{2\pi}{R}\xrightarrow[R\rightarrow
++\infty]{} 0.
+\end{aligned}\]&lt;/span&gt; Lembre que &lt;span
+class=&#34;math display&#34;&gt;\[e^{iz}=1+iz+\frac{(iz)^2}{2}+\frac{(iz)^3}{3!}+\ldots.\]&lt;/span&gt;
+Logo, &lt;span class=&#34;math inline&#34;&gt;\(e^{iz}=1+iz+z^2g(z)\)&lt;/span&gt;, onde
+&lt;span class=&#34;math inline&#34;&gt;\(g(z)\)&lt;/span&gt; é uma função holomorfa. Com
+isso, conclu ’imos que &lt;span
+class=&#34;math display&#34;&gt;\[\frac{1-e^{iz}}{z^2}=\frac{-i}{z}-g(z).\]&lt;/span&gt;
+Já que &lt;span class=&#34;math inline&#34;&gt;\(g\)&lt;/span&gt; é holomorfa, existe uma
+constante positiva &lt;span class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(|g(z)|&amp;lt;C\)&lt;/span&gt; sempre que &lt;span
+class=&#34;math inline&#34;&gt;\(|z|&amp;lt;1\)&lt;/span&gt;. Isto nos permite escrever &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma_\epsilon}\frac{1-\cos
+z}{z^2}dz=-I_1-I_2,\]&lt;/span&gt; onde &lt;span
+class=&#34;math inline&#34;&gt;\(I_1=\int_{\gamma_\epsilon}\frac{dz}{z}\)&lt;/span&gt; e
+&lt;span class=&#34;math inline&#34;&gt;\(I_2=\int{\gamma_\epsilon}g(z)dz\)&lt;/span&gt;.
+Note que para todo &lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt;
+suficientemente pequeno, &lt;span class=&#34;math display&#34;&gt;\[|I_2|\leq C\cdot
+\pi \epsilon.\]&lt;/span&gt; Por outro lado, &lt;span
+class=&#34;math display&#34;&gt;\[I_1=\int_0^\pi\frac{\epsilon i e^{it}}{\epsilon
+e^{it}}dt=i\int_0^\pi dt=i\pi.\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Fazendo &lt;span class=&#34;math inline&#34;&gt;\(R\rightarrow\infty\)&lt;/span&gt; e
+&lt;span class=&#34;math inline&#34;&gt;\(\epsilon\rightarrow 0\)&lt;/span&gt;, temos&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\int_{-\infty}^\infty\frac{1-\cos
+x}{x^2}dz=-\pi\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Na próxima aula, provaremos o seguinte resultado:&lt;/p&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 2&lt;/strong&gt; (Fórmula integral de Cauchy). &lt;em&gt;Seja
+&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; uma função holomorfa em um aberto
+contendo o feixo de um disco aberto &lt;span
+class=&#34;math inline&#34;&gt;\(D=D_R(z_0)\)&lt;/span&gt;. Seja &lt;span
+class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; o contorno do disco &lt;span
+class=&#34;math inline&#34;&gt;\(D\)&lt;/span&gt; com orientação positiva. Então &lt;span
+class=&#34;math display&#34;&gt;\[f(z)=\int_{C}\frac{f(w)}{w-z}dw,\quad z\in
+D\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automorphic Forms and L-functions of higher rank</title>
+      <link>https://ramonmn.com/new/talk/automorphic-forms-and-l-functions-of-higher-rank/</link>
+      <pubDate>Mon, 11 Sep 2023 09:00:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/talk/automorphic-forms-and-l-functions-of-higher-rank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Análise complexa - aula 4</title>
+      <link>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-4/</link>
+      <pubDate>Tue, 29 Aug 2023 20:17:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-4/</guid>
+      <description>&lt;h2 id=&#34;curvas-continuação&#34;&gt;Curvas (continuação)&lt;/h2&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 1&lt;/strong&gt;. &lt;em&gt;A equivalência de curvas, definida
+na aula passada é, de fato, uma relação de equivalência e uma curva é
+uma classe de equivalência de curvas parametrizadas.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 2&lt;/strong&gt;. &lt;em&gt;Dada uma curva parametrizada &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha : [a,b] \rightarrow \mathbb{C}\)&lt;/span&gt;, a
+curva &#34;invertida&#34; é a curva &lt;span class=&#34;math inline&#34;&gt;\(\alpha^{-}:[a,b]
+\rightarrow \mathbb{C}\)&lt;/span&gt; dada por &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha^{-} = \alpha(b+a-t).\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 3&lt;/strong&gt;. &lt;em&gt;Dizemos que a curva é fechada
+quando &lt;span class=&#34;math inline&#34;&gt;\(\alpha(a) =
+\alpha(b).\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 4&lt;/strong&gt;. &lt;em&gt;A curva é dita simples se &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha(t_1)\neq \alpha (t_2)\)&lt;/span&gt; sempre que
+&lt;span class=&#34;math inline&#34;&gt;\(t_1 \neq t_2\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Não-exemplo:&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 5&lt;/strong&gt;. &lt;em&gt;Uma curva é fechada e simples é uma
+curva &lt;span class=&#34;math inline&#34;&gt;\(\alpha: [a,b] \rightarrow
+\mathbb{C}\)&lt;/span&gt; fechada tal que se &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha(t_1) = \alpha (t_2) \Rightarrow
+t_1=t_2\)&lt;/span&gt; ou &lt;span class=&#34;math inline&#34;&gt;\(\{t_1,t_2\} =
+\{a,b\}\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Para simplificar nos referiremos como &lt;span
+class=&#34;math inline&#34;&gt;\(\textbf{curva}\)&lt;/span&gt; uma curva parametrizada
+&lt;span class=&#34;math inline&#34;&gt;\(C^1\)&lt;/span&gt;.&lt;br /&gt;
+Exemplo: circunferência. &lt;span class=&#34;math inline&#34;&gt;\(C_r(z_0) = \{z \in
+\mathbb{C};|z-z_0|=r\)&lt;/span&gt;. Cuja paramtetrização é &lt;span
+class=&#34;math inline&#34;&gt;\(z = z_0 + e^{it}, t \in [0,2\pi]\)&lt;/span&gt;.Dado um
+círculo &lt;span class=&#34;math inline&#34;&gt;\(C = C_r(z_0),\)&lt;/span&gt; diremos que a
+parametrização acima, ou qualquer outra equivalente, é positiva enquanto
+a parametrização inversa é negativa.&lt;/p&gt;
+&lt;h2 id=&#34;integral-de-curva&#34;&gt;Integral de Curva&lt;/h2&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 6&lt;/strong&gt;. &lt;em&gt;Seja &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; uma curva e &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt; uma parametrização, definimos a
+integral de &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; sobre &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, ou ao longo de &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, da seguinte maneira: &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz =
+\int_{a}^{b}f(\alpha(t))\alpha&amp;#39;(t)dt.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Observe que essa definição não depende da parametrização. De fato, se
+&lt;span class=&#34;math inline&#34;&gt;\(\beta : [c,d] \rightarrow C\)&lt;/span&gt; é outra
+parametrizaç˜ão de &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(t: [c,d] \rightarrow [a,b]\)&lt;/span&gt; é tal que
+&lt;span class=&#34;math inline&#34;&gt;\(\alpha(t(s)) = \beta(s)\)&lt;/span&gt;, então
+&lt;span class=&#34;math display&#34;&gt;\[\int_{c}^df(\beta(s)) \cdot \beta
+&amp;#39;(s)ds = \int_c^df(\alpha(t(s))) \cdot \alpha &amp;#39;(t(s)) \cdot
+t&amp;#39;(s) ds = \int_a^b f(\alpha(t)) \cdot \alpha &amp;#39;(t)dt .\]&lt;/span&gt;
+Além disso se &lt;span
+class=&#34;math inline&#34;&gt;\(\{a_0,a_1,a_2,...,a_n\}\)&lt;/span&gt; é uma partição de
+&lt;span class=&#34;math inline&#34;&gt;\([a,b]\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt; é &lt;span
+class=&#34;math inline&#34;&gt;\(C^1\)&lt;/span&gt; em &lt;span
+class=&#34;math inline&#34;&gt;\([a,b]\)&lt;/span&gt;, então &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = \sum_{i =
+0}^{n-1}\int_{a_i}^{a_{i+1}}f(\alpha(t)) \cdot dt.\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 7&lt;/strong&gt;. &lt;em&gt;Dada uma curva &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha : [a,b] \rightarrow \mathbb{C}\)&lt;/span&gt; uma
+parametrização, o comprimento da curva é dado por &lt;span
+class=&#34;math display&#34;&gt;\[l(\gamma).=.\int_a^b|\alpha&amp;#39;(t)|dt.\]&lt;/span&gt;&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ex&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Exercício 1&lt;/strong&gt;. &lt;em&gt;Mostre que &lt;span
+class=&#34;math inline&#34;&gt;\(l(\gamma)\)&lt;/span&gt; está bem definido, ou seja,
+independe da parametrização escolhida.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;prop&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Proposição 1&lt;/strong&gt;. &lt;em&gt;Sejam &lt;span
+class=&#34;math inline&#34;&gt;\(f,g\)&lt;/span&gt; contínuas na imagem de &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;. Então,&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;&lt;span class=&#34;math inline&#34;&gt;\(\forall w_1,w_2 \in
+\mathbb{C}\)&lt;/span&gt;,temos &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}(w_1f(z)+w_2g(z))dz = w_1 \cdot
+\int_{\gamma}f(z)dz+w_2 \cdot \int_{\gamma}g(z)dz\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;se &lt;span class=&#34;math inline&#34;&gt;\(\gamma^-\)&lt;/span&gt; é a curva
+inversa de &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, então &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma^-}f(z)dz = -
+\int_{\gamma}f(z)dz\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;vale a desigualdade: &lt;span class=&#34;math display&#34;&gt;\[\left|
+\int_{\gamma}f(z)dz \right| \leqslant l(\gamma) \cdot \sup_{z \in
+\gamma}|f(z)|\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;Prova: Segue das propriedades básicas de integral de funções
+contínuas em intervalos de &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{R}\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 1&lt;/strong&gt;. &lt;em&gt;Se &lt;span class=&#34;math inline&#34;&gt;\(\Omega
+\subseteq \mathbb{C}\)&lt;/span&gt; é um domínio e &lt;span
+class=&#34;math inline&#34;&gt;\(f: \Omega \rightarrow \mathbb{C}\)&lt;/span&gt; é
+contínua e possui primitiva F, então &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = F(\alpha(b)) -
+F(\alpha(a)),\]&lt;/span&gt; onde &lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt;
+é qualquer parametrização de &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma.\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Prova: tome &lt;span class=&#34;math inline&#34;&gt;\(F&amp;#39;=f,\)&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = \int_a^bf(\alpha(t)) \cdot
+\alpha &amp;#39;(t)dt = \int_a^bF&amp;#39;(\alpha(t)) \cdot \alpha
+&amp;#39;(t)dt\]&lt;/span&gt; &lt;span class=&#34;math display&#34;&gt;\[\Rightarrow^*
+\int_{\gamma}f(z)dz = \int_a^b(F \circ \alpha)&amp;#39;(t)dt = F(\alpha(b))
+- F(\alpha(a)).\]&lt;/span&gt; Note que a implicação &lt;span
+class=&#34;math inline&#34;&gt;\(*\)&lt;/span&gt; segue da regra da cadeia para funções
+em &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}^n\)&lt;/span&gt; e do fato que F é
+holomorfa &lt;span class=&#34;math inline&#34;&gt;\(\Rightarrow\)&lt;/span&gt; F
+difereniável do ponto de vista de &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{R}^2.\)&lt;/span&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class=&#34;obs&#34;&gt;
+&lt;p&gt;&lt;strong&gt;OBS 1&lt;/strong&gt;. &lt;em&gt;Por simplificação, as vezes escreveremos
+&lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = F(\gamma(b)) -
+F(\gamma(a)),\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 1&lt;/strong&gt;. &lt;em&gt;Sob as mesmas hipóteses do teorema
+acima , se &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; for fechada,
+então &lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz =
+0.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Considere o seguinte exemplo. Seja &lt;span class=&#34;math inline&#34;&gt;\(C =
+C_r(0)\)&lt;/span&gt; uma circunferência ao redor da origem com orientação
+positiva e &lt;span class=&#34;math inline&#34;&gt;\(f(z) = \dfrac{1}{z}\)&lt;/span&gt;.
+Então, &lt;span class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz =
+\int_0^{2\pi}\dfrac{1}{re^{it}} \cdot ire^{it}dt = i \int_0^{2\pi} =
+2\pi i \neq 0.\]&lt;/span&gt; Logo, se &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é um domínio contendo &lt;span
+class=&#34;math inline&#34;&gt;\(C_r(0)\)&lt;/span&gt;, então &lt;span
+class=&#34;math inline&#34;&gt;\(\dfrac{1}{z}\)&lt;/span&gt; não possui primitiva em
+&lt;span class=&#34;math inline&#34;&gt;\(\Omega.\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 2&lt;/strong&gt;. &lt;em&gt;Se &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é um domínio e &lt;span
+class=&#34;math inline&#34;&gt;\(f : \Omega \rightarrow \mathbb{C}\)&lt;/span&gt; é
+holomorfa é tal que &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(z) = 0 ,\forall z
+\in \Omega\)&lt;/span&gt;. Então, &lt;span class=&#34;math inline&#34;&gt;\(f =\)&lt;/span&gt;
+constante.&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proof&#34;&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; Como &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é
+conexo pelo exercício 5 do capitulo 1 do livro do Stein, &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é conexo por arcos. Isto é, dados
+&lt;span class=&#34;math inline&#34;&gt;\(z_1,z_2 \in \Omega, \exists \alpha : [a,b]
+\rightarrow \mathbb{C}\)&lt;/span&gt; uma curva parametrizada tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha(a) = z_1, \alpha(b) = z_2\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha(t) \in \Omega \forall t \in [a,b].\)&lt;/span&gt;
+Com isso, &lt;span class=&#34;math inline&#34;&gt;\(f(z_2) - f(z_1) = f(\alpha(a)) -
+f(\alpha(b)) = \int_{\gamma}f&amp;#39;(z)dz = 0,\)&lt;/span&gt; onde &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; é a curva associada à
+parametrização &lt;span class=&#34;math inline&#34;&gt;\(\alpha.\)&lt;/span&gt; ◻&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;o-teorema-de-cauchy&#34;&gt;O Teorema de Cauchy&lt;/h2&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 2&lt;/strong&gt;. &lt;em&gt;Se &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em um domínio &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; é uma curva fechada cujo &lt;span
+class=&#34;math inline&#34;&gt;\(\textbf{interior}\)&lt;/span&gt; está contido em &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;, então &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z)dz = 0.\]&lt;/span&gt;&lt;br /&gt;
+Observações:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Ao exigir que o interior da curva esteja no conjunto, não
+precisamos exigir que &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; possua
+primitiva;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Isso não contradiz o exemplo que vimos envolvendo &lt;span
+class=&#34;math inline&#34;&gt;\(C_r(0)\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(f(z)
+= \frac{1}{z}\)&lt;/span&gt; pois, f não é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z = 0\)&lt;/span&gt; e 0 está no interior do
+círculo.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Vamos começar com uma versão simplificada do teorema.&lt;/p&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 3&lt;/strong&gt; (Goursat). &lt;em&gt;Se &lt;span
+class=&#34;math inline&#34;&gt;\(T \subseteq \Omega\)&lt;/span&gt; é um triângulo cujo
+interior está contido em &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;
+então &lt;span class=&#34;math display&#34;&gt;\[\int_{T}f(z)dz = 0.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 8&lt;/strong&gt;. &lt;em&gt;Triângulo. Seja &lt;span
+class=&#34;math inline&#34;&gt;\(\{a_0,a_1,a_2,a_3\}\)&lt;/span&gt; partição de &lt;span
+class=&#34;math inline&#34;&gt;\([a,b]\)&lt;/span&gt;. Tome &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha: [a,b]\rightarrow \mathbb{C},\)&lt;/span&gt; tal
+que &lt;span class=&#34;math display&#34;&gt;\[\alpha(a_0)=A,\quad \alpha(a_1) =
+B,\quad \alpha(a_2) = C,\quad \alpha(a_3)=A\]&lt;/span&gt; e, além disso,
+&lt;span class=&#34;math display&#34;&gt;\[\alpha([a_0,a_1]) = \overline{AB},\quad
+\alpha([a_1,a_2]) = \overline{BC}\quad \alpha([a_2a_3]) =
+\overline{CA}\]&lt;/span&gt; as respectivas parametrizações dos
+segmentos.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proof&#34;&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; Chamaremos o triângulo original de &lt;span
+class=&#34;math inline&#34;&gt;\(T=T_0\)&lt;/span&gt; e usando os pontos médios &lt;span
+class=&#34;math inline&#34;&gt;\(E,D\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(F\)&lt;/span&gt; dividiremos &lt;span
+class=&#34;math inline&#34;&gt;\(T_0\)&lt;/span&gt; em quatro triiângulos &lt;span
+class=&#34;math inline&#34;&gt;\(T_1^1 = \triangle AEF, T_1^2 = \triangle FBD,
+T_1^3 = \triangle CED\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(\triangle
+T_1^4 = DEF\)&lt;/span&gt;, todos semelhantes ao original com um fator de
+semelhança igual a &lt;span
+class=&#34;math inline&#34;&gt;\(\dfrac{1}{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class=&#34;center&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;Parametrizando os triângulos no sentido anti-horário temos que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{T_0}f(z)dz = \int_{T_1^1}f(z)dz+
+\int_{T_1^2}f(z)dz + \int_{T_1^3}f(z)dz + \int_{T_1^4}f(z)dz\]&lt;/span&gt;
+Portanto, &lt;span class=&#34;math display&#34;&gt;\[\left| \int_{T_0}f(z)dz \right|
+\leqslant \sum_{i=1}^4\left| \int_{T_1^i}f(z)dz \right| \leqslant 4
+\cdot \max_{1 \leqslant i \leqslant 4} \left| \int_{T_1^i}f(z)dz
+\right|.\]&lt;/span&gt; Seja &lt;span class=&#34;math inline&#34;&gt;\(i\)&lt;/span&gt; tal que
+&lt;span class=&#34;math inline&#34;&gt;\(T_1^i\)&lt;/span&gt; realiza o máximo acima,
+defina &lt;span class=&#34;math inline&#34;&gt;\(T_1 = T_1^i\)&lt;/span&gt;. Ou seja, temos,
+&lt;span class=&#34;math display&#34;&gt;\[\left| \int_{T_0} f(z)dz \right| \leqslant
+4 \left| \int_{T_1}f(z)dz \right|.\]&lt;/span&gt; Repetindo o processo,
+encontramos &lt;span class=&#34;math inline&#34;&gt;\(T_2\)&lt;/span&gt;, contido no
+interior de &lt;span class=&#34;math inline&#34;&gt;\(T_1\)&lt;/span&gt;, demelhante a &lt;span
+class=&#34;math inline&#34;&gt;\(T_1\)&lt;/span&gt;, com fator de semelhança igual a
+&lt;span class=&#34;math inline&#34;&gt;\(\dfrac{1}{2}\)&lt;/span&gt; e tal que &lt;span
+class=&#34;math display&#34;&gt;\[\left| \int_{T_1}f(z)dz \right| \leqslant 4 \cdot
+\left| \int_{T_2}f(z)dz \right|.\]&lt;/span&gt; Iterando o processo, temos uma
+sequência de triângulos &lt;span class=&#34;math inline&#34;&gt;\(\{T_n\}\)&lt;/span&gt;
+tais que o fator de semelhança entre eles é &lt;span
+class=&#34;math inline&#34;&gt;\(\dfrac{1}{2}\)&lt;/span&gt; e &lt;span
+class=&#34;math display&#34;&gt;\[\left| \int_{T_{n}}f(z)dz \right| \leqslant 4
+\cdot \left| \int_{T_{n+1}}f(z)dz \right|.\]&lt;/span&gt; Sejam &lt;span
+class=&#34;math inline&#34;&gt;\(p_n =\)&lt;/span&gt; perímetro de &lt;span
+class=&#34;math inline&#34;&gt;\(T_n\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(d_n =
+\operatorname{diam}(T_n).\)&lt;/span&gt; Por conta do fator de semelhança,
+segue que &lt;span class=&#34;math inline&#34;&gt;\(p_{n+1} = \dfrac{1}{2}\)&lt;/span&gt; e
+&lt;span class=&#34;math inline&#34;&gt;\(d_{n+1} = \dfrac{1}{2}d_{n}.\)&lt;/span&gt;
+Concatenando os resultados, temos que &lt;span class=&#34;math inline&#34;&gt;\(d_n =
+\dfrac{1}{2^n}d_0\)&lt;/span&gt; , &lt;span class=&#34;math inline&#34;&gt;\(p_n =
+\dfrac{1}{2^n}p_0\)&lt;/span&gt; e &lt;span class=&#34;math display&#34;&gt;\[\left|
+\int_{T_0}f(z)dz \right| \leqslant 4^n \cdot \left| \int_{T_n}f(z)dz
+\right|.\]&lt;/span&gt; Seja &lt;span
+class=&#34;math inline&#34;&gt;\(\widetilde{T_n}\)&lt;/span&gt; = fecho do interior de
+&lt;span class=&#34;math inline&#34;&gt;\(T_n.\)&lt;/span&gt; Então: &lt;span
+class=&#34;math inline&#34;&gt;\(\widetilde{T_n}\)&lt;/span&gt; é compacto, &lt;span
+class=&#34;math inline&#34;&gt;\(\operatorname{diam}(\widetilde{T_n}) =
+\operatorname{diam}(T_n)\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\widetilde{T_{n+1}} \subseteq \widetilde{T_n}
+,\forall n \in \mathbb{N}.\)&lt;/span&gt; Logo, pelo teorema dos compactos
+encaixados, existe um único ponto &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; que está contido em todos os &lt;span
+class=&#34;math inline&#34;&gt;\(T_n\)&lt;/span&gt;. Como &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt;, dado &lt;span
+class=&#34;math inline&#34;&gt;\(\epsilon &amp;gt; 0 , \exists \delta &amp;gt; 0\)&lt;/span&gt;
+tal que se &lt;span class=&#34;math inline&#34;&gt;\(|z-z_0|&amp;lt; \delta\)&lt;/span&gt; então
+&lt;span class=&#34;math inline&#34;&gt;\(\left|
+\dfrac{f(z)-f(z_0)}{z-z_0}-f&amp;#39;(z_0) \right| &amp;lt; \epsilon .\)&lt;/span&gt;
+Logo, &lt;span class=&#34;math display&#34;&gt;\[|f(z)-f(z_0)-f&amp;#39;(z_0)(z-z_0)| &amp;lt;
+\epsilon |z-z_0|.\]&lt;/span&gt; Tome &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;
+grande suficiente de modo que &lt;span class=&#34;math inline&#34;&gt;\(d_n &amp;lt;
+\delta.\)&lt;/span&gt; Temos neste caso, que &lt;span
+class=&#34;math inline&#34;&gt;\(|z-z_0|&amp;lt; \delta| , \forall z \in T_n\)&lt;/span&gt;.
+Logo, temos &lt;span class=&#34;math display&#34;&gt;\[\left| \int_{T_n}[
+f(z)-f(z_0)-f&amp;#39;(z_0)(z-z_0)]dz \right| &amp;lt; \epsilon
+\int_{T_n}|z-z_0|dz &amp;lt; \epsilon \cdot d_n \cdot p_n = \dfrac{\epsilon
+d_0 p_0}{4^n}.\]&lt;/span&gt; Uma vez que a função constante &lt;span
+class=&#34;math inline&#34;&gt;\(f(z_0)\)&lt;/span&gt; e a função &lt;span
+class=&#34;math inline&#34;&gt;\(f&amp;#39;(z_0) (z-z_0)\)&lt;/span&gt; possuem primitiva em
+&lt;span class=&#34;math inline&#34;&gt;\(\mathbb{C}\)&lt;/span&gt;, segue que &lt;span
+class=&#34;math display&#34;&gt;\[\int_{\gamma}f(z_0)dz =
+\int_{\gamma}f&amp;#39;(z_0)(z-z_0)dz = 0.\]&lt;/span&gt; Portanto, temos que
+&lt;span class=&#34;math display&#34;&gt;\[\left| \int_{T_n}f(z)dz \right|&amp;lt;
+\dfrac{\epsilon d_0 p_0}{4^n}.\]&lt;/span&gt; Disto segue que &lt;span
+class=&#34;math display&#34;&gt;\[\left| \int_{T_0}f(z)dz \right| \leqslant 4^n
+\cdot \dfrac{\epsilon d_0 p_0}{4^n} = \epsilon d_0 p_0 .\]&lt;/span&gt; Como
+&lt;span class=&#34;math inline&#34;&gt;\(\epsilon\)&lt;/span&gt; é arbitrário, o resultado
+segue. ◻&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise complexa - aula 3</title>
+      <link>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-3/</link>
+      <pubDate>Tue, 29 Aug 2023 20:05:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-3/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Aula de hoje:&lt;/strong&gt; série de potências.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt; &lt;span class=&#34;math display&#34;&gt;
+\[e^x =1+x+\dfrac{x^2}{2!}+\dfrac{x^3}{3!}+...\]&lt;/span&gt;
+converge para todo &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;
+real e define uma função(infinitamente) diferenciável.&lt;/p&gt;
+&lt;p&gt;Hoje vamos ver, dentre outras coisas que &lt;span
+class=&#34;math inline&#34;&gt;\(e^z = 1+z+\frac{z^2}{2!}+
+\frac{z^3}{3!}+\cdots\)&lt;/span&gt; converge para todo &lt;span
+class=&#34;math inline&#34;&gt;\(z\in \mathbb{C}\)&lt;/span&gt; e define uma função
+holomorfa.&lt;/p&gt;
+&lt;h2 id=&#34;convergência-de-séries&#34;&gt;Convergência de séries&lt;/h2&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 1&lt;/strong&gt;. &lt;em&gt;Uma série de números complexos
+&lt;span class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}z_n\)&lt;/span&gt; converge
+para um número complexo &lt;span class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; se para
+todo &lt;span class=&#34;math inline&#34;&gt;\(\epsilon &amp;gt;0\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(N&amp;gt;0,\)&lt;/span&gt; tal que se &lt;span
+class=&#34;math inline&#34;&gt;\(m_1&amp;gt;m&amp;gt;M\)&lt;/span&gt; então &lt;span
+class=&#34;math display&#34;&gt;\[\left|\sum_{n=m}^{m_1}z_n\right|&amp;lt;\epsilon.\]&lt;/span&gt;
+Note que isso é equivalente a dizer que a sequência das somas parciais
+&lt;span class=&#34;math inline&#34;&gt;\(S_m = \sum_{n=1}^mz_n\)&lt;/span&gt; é uma
+sequência de Cauchy.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 2&lt;/strong&gt;. &lt;em&gt;A séire &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}z_n\)&lt;/span&gt; convege
+absolutamente se &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}|z_n|\)&lt;/span&gt;
+converge.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Assim como em análise Real, vale que se &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}z_n\)&lt;/span&gt; converge
+absolutamente, então se &lt;span class=&#34;math inline&#34;&gt;\(f :
+\mathbb{N}\rightarrow \mathbb{N}\)&lt;/span&gt; é uma bijeção, então &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}z_{f(n)}\)&lt;/span&gt; também
+converge para o mesmo valor. Além disso valem os testes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Teste da razão: se &lt;span
+class=&#34;math inline&#34;&gt;\(\limsup|\dfrac{z_n}{z_{n+1}}|&amp;lt;1\)&lt;/span&gt;. Então
+a série converge absolutamente.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Teste da raiz: se &lt;span class=&#34;math inline&#34;&gt;\(\limsup
+|\sqrt[n]{|z_n|}|&amp;lt;1\)&lt;/span&gt; então a série converge
+absolutamente.&lt;br /&gt;
+Lembrete: &lt;span class=&#34;math inline&#34;&gt;\(\limsup_{n \rightarrow \infty}z_n
+= \sup\{L; \exists\)&lt;/span&gt; subsequência &lt;span
+class=&#34;math inline&#34;&gt;\(z_{n_k}\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(z_{n_k}\rightarrow L \}.\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Usando qualquer um dos dois testes, vemos que a série &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}\dfrac{z_n}{n!}\)&lt;/span&gt;
+converge &lt;span class=&#34;math inline&#34;&gt;\(\forall z.\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 3&lt;/strong&gt;. &lt;em&gt;Uma série de potências é uma
+expansão da forma &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}a_nz^n\)&lt;/span&gt; onde &lt;span
+class=&#34;math inline&#34;&gt;\(\{a_n\}_{n \geqslant 0}\)&lt;/span&gt; é uma sequência
+de números complexos.&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;A idéia é estudar quando a série converge absolutamente.&lt;/p&gt;
+&lt;div class=&#34;prop&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Proposição 1&lt;/strong&gt;. &lt;em&gt;Dado umma série de potências &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}a_nz^n\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(0 \leqslant R \leqslant \infty\)&lt;/span&gt; tal
+que&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Se &lt;span class=&#34;math inline&#34;&gt;\(|z|&amp;lt;R\)&lt;/span&gt;, a série
+converge absolutamente;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;se &lt;span class=&#34;math inline&#34;&gt;\(|z|&amp;gt;R\)&lt;/span&gt;, a série
+diverge.&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proof&#34;&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; Seja &lt;span class=&#34;math inline&#34;&gt;\(L = \limsup_{n
+\rightarrow \infty} \sqrt[n]{|a_n|}\)&lt;/span&gt;, onde &lt;span
+class=&#34;math inline&#34;&gt;\(L \in [0,\infty]\)&lt;/span&gt;. Suponha inicialmente
+que &lt;span class=&#34;math inline&#34;&gt;\(L \neq 0,\infty\)&lt;/span&gt;. Neste caso,
+note que &lt;span class=&#34;math inline&#34;&gt;\(\limsup_{n \rightarrow
+\infty}\sqrt[n]{|a_n||z^n|} = L\cdot |z|\)&lt;/span&gt;. Pelo teste da raíz,
+se &lt;span class=&#34;math inline&#34;&gt;\(L|z|&amp;lt;1\)&lt;/span&gt;, a série converge
+absolutamente e se &lt;span class=&#34;math inline&#34;&gt;\(L|z_n|&amp;gt;1\)&lt;/span&gt; a
+série diverge. Logo, o resultado segue com &lt;span class=&#34;math inline&#34;&gt;\(R
+= \dfrac{1}{L}\)&lt;/span&gt;. Caso contrário, quando &lt;span
+class=&#34;math inline&#34;&gt;\(L = 0\)&lt;/span&gt; ou &lt;span
+class=&#34;math inline&#34;&gt;\(\infty\)&lt;/span&gt;, temos que &lt;span
+class=&#34;math inline&#34;&gt;\(\limsup \sqrt[n]{|a_n|\cdot |z|^n}=0\)&lt;/span&gt; ou
+&lt;span class=&#34;math inline&#34;&gt;\(\infty\)&lt;/span&gt;, respectivamente. Logo, no
+primeiro caso a série converge &lt;span class=&#34;math inline&#34;&gt;\(\forall z
+\neq 0\)&lt;/span&gt; e no segundo caso a série diverge &lt;span
+class=&#34;math inline&#34;&gt;\(\forall z \neq 0.\)&lt;/span&gt; Finalmente, quando
+&lt;span class=&#34;math inline&#34;&gt;\(z = 0\)&lt;/span&gt; a série converge
+trivialmente. ◻&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;OBS: Quando &lt;span class=&#34;math inline&#34;&gt;\(|z| = R\)&lt;/span&gt; a proposição
+nada diz sobre a série e, de fato, nada se pode dizer. Depende de cada
+caso. Outros exemplos de séries convergentes são &lt;span
+class=&#34;math display&#34;&gt;\[\cos(z) = \sum_{n=0}^{\infty} (-1)^n
+\dfrac{z^{2n}}{(2n)!},\quad\operatorname{sen}(z) =
+\sum_{n=0}^{+\infty}(-1)^n\dfrac{z^{2n+1}}{(2n+1)!}\]&lt;/span&gt; e elas
+coincidem com a definição usual quando &lt;span class=&#34;math inline&#34;&gt;\(z \in
+\mathbb{R}\)&lt;/span&gt;. Como essas séries convergem uniformemente, podemos
+somar termo a termo e chegar em &lt;span class=&#34;math display&#34;&gt;\[\cos(z) =
+\frac{e^{iz}+e^{-iz}}{2},\quad \operatorname{sen}(z) =
+\frac{e^{iz}-e^{-iz}}{2i}.\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Em particular, &lt;span class=&#34;math display&#34;&gt;\[e^{iz} = \cos (z) + i
+\operatorname{sen}(z),\]&lt;/span&gt; o que justifica a notação da aula 1.&lt;/p&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 4&lt;/strong&gt;. &lt;em&gt;Dada uma série de potências, o
+número &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; da proprosição acima é
+chamado de raio de convergência.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Com isso, toda série de potências &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=1}^{\infty}a_nz^n\)&lt;/span&gt; define unma
+função &lt;span class=&#34;math inline&#34;&gt;\(f: D_R(0) \rightarrow
+\mathbb{C}\)&lt;/span&gt;, dada por &lt;span class=&#34;math inline&#34;&gt;\(f(z)=
+\sum_{n=1}^{\infty}a_nz^n\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 1&lt;/strong&gt;. &lt;em&gt;Uma série de potências &lt;span
+class=&#34;math inline&#34;&gt;\(f(z)=\sum_{n=1}^{\infty}a_nz^n\)&lt;/span&gt; define uma
+função holomorfa em seu disco de convergência &lt;span
+class=&#34;math inline&#34;&gt;\(D_R(0) = \{z \in \mathbb{C}; |z|&amp;lt;R\}.\)&lt;/span&gt;
+A derivada de &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; também é dada por
+uma série de potências e é obtida diferenciando termo a dermo. Isto é
+&lt;span class=&#34;math display&#34;&gt;\[f&amp;#39;(z) = \sum_{n=0}^{\infty}na_nz^{n-1}
+= \sum_{n=0}^{\infty}(n+1)a_{n+1}z^n.\]&lt;/span&gt; Além disso, o raio de
+convergência de &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;\)&lt;/span&gt; é o mesmo de
+&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(R_{f&amp;#39;} = R_f\)&lt;/span&gt;. De fato,
+&lt;span class=&#34;math display&#34;&gt;\[R_{f&amp;#39;} = \limsup_{n \rightarrow
+\infty}\sqrt[n]{na_n}\]&lt;/span&gt; &lt;span class=&#34;math display&#34;&gt;\[\Rightarrow
+R_{f&amp;#39;} = \limsup_{n \rightarrow
+\infty}\sqrt[n]{n}\sqrt[n]{|a_n|}\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\Rightarrow R_{f&amp;#39;} = \lim_{n \rightarrow
+\infty}\sqrt[n]{n} \cdot \limsup_{n \rightarrow
+\infty}\sqrt[n]{|a_n|}\]&lt;/span&gt; &lt;span class=&#34;math display&#34;&gt;\[\Rightarrow
+R_{f&amp;#39;} = 1 \cdot R_f .\]&lt;/span&gt; Note que essa prova usa o seguinte
+resultado de análise real: se &lt;span class=&#34;math inline&#34;&gt;\(\lim_{n
+\rightarrow \infty}x_n = x&amp;gt;0\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\limsup_{n \rightarrow \infty}y_n = y\)&lt;/span&gt;,
+então &lt;span class=&#34;math inline&#34;&gt;\(\limsup_{n\rightarrow \infty}x_n\cdot
+y_n = x\cdot y\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(g(z) =
+\sum_{n=0}^{+\infty}na_nz^{n+1}\)&lt;/span&gt; definida em &lt;span
+class=&#34;math inline&#34;&gt;\(D_R(0)\)&lt;/span&gt;. Seja &lt;span
+class=&#34;math inline&#34;&gt;\(z_0 \in D_R(0)\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(r\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(|z_0|&amp;lt;r&amp;lt;R\)&lt;/span&gt;. Seja &lt;span
+class=&#34;math inline&#34;&gt;\(N \in \mathbb{N}\)&lt;/span&gt;, façamos &lt;span
+class=&#34;math display&#34;&gt;\[f(z) = S_N(z)+E_N(z),\]&lt;/span&gt; onde &lt;span
+class=&#34;math display&#34;&gt;\[S_N(z) = \sum_{n=1}^Na_nz^n,\quad E_N(z) =
+\sum_{n = N+1}^{+\infty}a_nz^n.\]&lt;/span&gt; Dado &lt;span
+class=&#34;math inline&#34;&gt;\(h\)&lt;/span&gt; com &lt;span
+class=&#34;math inline&#34;&gt;\(|h|\)&lt;/span&gt; suficientemente pequeno &lt;span
+class=&#34;math inline&#34;&gt;\((|z_0+h|&amp;lt;r)\)&lt;/span&gt;, uma vez que &lt;span
+class=&#34;math inline&#34;&gt;\(S_N(z)\)&lt;/span&gt; é polinômio, podemos escrever
+&lt;span class=&#34;math display&#34;&gt;\[\begin{gathered}
+\frac{f(z_0+h)-f(z_0)}{h}-g(z_0) =
+\frac{S_N(z_0+h)-S_N(z_0)}{h}-S_N&amp;#39;(z_0) \\
++\frac{E_N(z_0+h)-E_N(z_0)}{h}-(g(z_0) -  S_N&amp;#39;(z_0)).
+\end{gathered}\]&lt;/span&gt; Em particular, &lt;span
+class=&#34;math display&#34;&gt;\[\begin{gathered}
+\left|\frac{f(z_0+h)-f(z_0)}{h}-g(z_0)\right| \le
+\left|\frac{S_N(z_0+h)-S_N(z_0)}{h}-S_N&amp;#39;(z_0)\right| \\
++\left|\frac{E_N(z_0+h)-E_N(z_0)}{h}\right|
++\Big|(g(z_0)-S_N&amp;#39;(z_0))\Big|.
+\end{gathered}\]&lt;/span&gt; Agora, vamos estimar cada uma das parcelas do
+lado direito.&lt;/p&gt;
+&lt;p&gt;Observe que: &lt;span class=&#34;math display&#34;&gt;\[\left|
+\dfrac{E_N(z_0+h)-E_N(z_0)}{h} \right| \leqslant \sum_{n =
+N+1}^{\infty}|a_n|\left| \dfrac{(z_0+h)^n-z_0^n}{h}\right|.\]&lt;/span&gt;
+Mas, &lt;span
+class=&#34;math display&#34;&gt;\[(z_0+h)^n-z_0^n=h((z_0+h)^{n-1}+(z_0+h)^{n-2}h+...+z_0^{n-1})\]&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\Rightarrow |(z_0+h)^n-z_0^n| \leqslant
+|h|(r^{n-1}+r^{n-1}+...r^{n-1}) = n|h|r^{n-1}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\Rightarrow \left|
+\dfrac{E_N(z_0+h)-E_N(z_0)}{h} \right| \leqslant \sum_{n =
+N+1}^{+\infty}n|a_n|R^{n-1}.\]&lt;/span&gt; Uma vez que &lt;span
+class=&#34;math inline&#34;&gt;\(r&amp;lt;R\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(g(z)
+= \sum_{n=0}^{+\infty}na_nz^{n-1}\)&lt;/span&gt; converge absolutamente em
+&lt;span class=&#34;math inline&#34;&gt;\(D_R(0)\)&lt;/span&gt;,&lt;span
+class=&#34;math inline&#34;&gt;\(G_N(r)\)&lt;/span&gt; é o rabo de uma série convergente
+e, portanto, se N for suficientemente grande, temos &lt;span
+class=&#34;math inline&#34;&gt;\(G_N(r)&amp;lt;\epsilon\)&lt;/span&gt;.&lt;br /&gt;
+Por outro lado, pela definição de &lt;span
+class=&#34;math inline&#34;&gt;\(g(z)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(\lim_{N
+\rightarrow \infty}S_N&amp;#39;(z_0) = g(z_0)\)&lt;/span&gt;. Logo, mais uma vez,
+para N suficientemente grande , &lt;span
+class=&#34;math inline&#34;&gt;\(|g(z_0)-S_N&amp;#39;(z_0)|&amp;lt;\epsilon
+.\)&lt;/span&gt;&lt;br /&gt;
+Conclusão: se N é suficientemente grande, &lt;span
+class=&#34;math display&#34;&gt;\[\left| \dfrac{f(z_0+h)-f(z_0)}{h} - g(z_0)
+\right| \leqslant \left| \dfrac{S_N(z_0+h)-S_N(z_0)}{h}-S_N&amp;#39;(z_0)
+\right| +2\epsilon.\]&lt;/span&gt; Agora, fizemos N e tomamos h
+suficientemente pequeno, tal que &lt;span class=&#34;math display&#34;&gt;\[\left|
+\dfrac{S_N(z_0+h)-S_N(z_0)}{h}-S_N&amp;#39;(z_0) \right| &amp;lt;
+\epsilon\]&lt;/span&gt; Ou seja, para h suficientemente pequeno, &lt;span
+class=&#34;math display&#34;&gt;\[\left| \dfrac{f(z_0+h)-f(z_0)}{h} - g(z_0)
+\right| &amp;lt; 2 \epsilon.\]&lt;/span&gt; Como &lt;span
+class=&#34;math inline&#34;&gt;\(\epsilon &amp;gt; 0\)&lt;/span&gt; é arbitrário, o resultado
+segue.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Corolário 1&lt;/strong&gt;. &lt;em&gt;Uma série de potências define uma
+função infinitamente derivável e todas as suas derivadas são dadas por
+séries de potências com o mesmo raio de convergência.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 5&lt;/strong&gt;. &lt;em&gt;Dado &lt;span
+class=&#34;math inline&#34;&gt;\(z_0 \in \mathbb{C}\)&lt;/span&gt;, uma série de
+potências centrada em &lt;span class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; é uma
+série da forma &lt;span
+class=&#34;math inline&#34;&gt;\(\sum_{n=0}^{+\infty}a_n(z-z_0)^n\)&lt;/span&gt; onde
+&lt;span class=&#34;math inline&#34;&gt;\(\{a_n\}_{n\geqslant 0}\)&lt;/span&gt; é uma
+sequência de números complexos.&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Todos os resultados sobre séries da forma &lt;span
+class=&#34;math inline&#34;&gt;\(\sum a_nz^n\)&lt;/span&gt; continuam válidos trocando
+&lt;span class=&#34;math inline&#34;&gt;\(|z|&amp;lt;R\)&lt;/span&gt; por &lt;span
+class=&#34;math inline&#34;&gt;\(|z-z_0|&amp;lt;R\)&lt;/span&gt;, etc.&lt;/p&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 6&lt;/strong&gt;. &lt;em&gt;Seja &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; um domínio e &lt;span
+class=&#34;math inline&#34;&gt;\(f: \Omega \rightarrow \mathbb{C}\)&lt;/span&gt;. Dizemos
+que &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é analítica se &lt;span
+class=&#34;math inline&#34;&gt;\(\forall z_0 \in \Omega\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(\delta &amp;gt; 0\)&lt;/span&gt; tal que se &lt;span
+class=&#34;math inline&#34;&gt;\(|z-z_0|&amp;lt;\delta\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(f(z)\)&lt;/span&gt; é dado por uma série de potências
+centrada em &lt;span class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt;. Isto é, existe
+umma sequência &lt;span class=&#34;math inline&#34;&gt;\(\{a_n\}\)&lt;/span&gt; dependendo
+de &lt;span class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; tal que &lt;span
+class=&#34;math display&#34;&gt;\[\sum_{n=0}^{+\infty}a_n(z-z_0)^n,\quad
+|z-z_0|&amp;lt;\delta.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;OBS: Assim como em &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}\)&lt;/span&gt;,
+valem as formulas &lt;span class=&#34;math inline&#34;&gt;\(a_n =
+\dfrac{f^{(n)}(z_0)}{n!}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;caminhos-em-mathbbc&#34;&gt;Caminhos em &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{C}\)&lt;/span&gt;&lt;/h2&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 7&lt;/strong&gt;. &lt;em&gt;TO BE CONTINUED...&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise complexa - aula 2</title>
+      <link>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-2/</link>
+      <pubDate>Tue, 22 Aug 2023 01:26:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-2/</guid>
+      <description>&lt;body&gt;
+&lt;h2 id=&#34;sequências-sobre-compactos&#34;&gt;Sequências sobre compactos&lt;/h2&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 1&lt;/strong&gt;. &lt;em&gt;Seja &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega \subset \mathbb{C}\)&lt;/span&gt;,&lt;span
+class=&#34;math display&#34;&gt;\[\operatorname{diam}(\Omega) = \sup_{z,w \in
+\Omega}|z-w|.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;prop&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Proposição 1&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é limidado &lt;span
+class=&#34;math inline&#34;&gt;\(\Leftrightarrow \operatorname{diam}(\Omega)&amp;lt;
+\infty.\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 1&lt;/strong&gt;. &lt;em&gt;&lt;span class=&#34;math inline&#34;&gt;\(\Omega
+\subset \mathbb{C}\)&lt;/span&gt; é compacto se, e somente se, toda sequência
+&lt;span class=&#34;math inline&#34;&gt;\(\{z_n\}\subset \mathbb{C}\)&lt;/span&gt; possui
+uma subsequência que converge oara um ponto &lt;span
+class=&#34;math inline&#34;&gt;\(z \in \Omega\)&lt;/span&gt;.&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proof&#34;&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; (&lt;span class=&#34;math inline&#34;&gt;\(\Rightarrow\)&lt;/span&gt;):
+Seja &lt;span class=&#34;math inline&#34;&gt;\(\{z_n\}\)&lt;/span&gt; uma sequência nos
+complexos. Como &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é compacto,
+existe &lt;span class=&#34;math inline&#34;&gt;\(M\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(|z_n|&amp;lt;M\)&lt;/span&gt; para todo &lt;span
+class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;. Como vimos na aula passada, &lt;span
+class=&#34;math inline&#34;&gt;\(|\operatorname{Re}(z_n)|,|\operatorname{Im}(z_n)|&amp;lt;M\)&lt;/span&gt;.
+Logo, as sequências reais &lt;span
+class=&#34;math inline&#34;&gt;\(\operatorname{Re}(z_n)\}\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\{\operatorname{Im}(z_n)\}\)&lt;/span&gt; são
+,respectivamente, sequências de um conjunto compacto da reta, a saber
+&lt;span class=&#34;math inline&#34;&gt;\([-M,M]\)&lt;/span&gt;. Logo, usando o resultado
+analogo ao que estamos provando, sobre &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{R}\)&lt;/span&gt;, obtemos uma subsequência
+&lt;span class=&#34;math inline&#34;&gt;\(\{\operatorname{Re}(z_{n_k})\}\)&lt;/span&gt; tal
+que &lt;span class=&#34;math inline&#34;&gt;\(\operatorname{Re}(z_{n_k}) \rightarrow
+x\)&lt;/span&gt;. Aplicando o mesmo resultado à subsequência &lt;span
+class=&#34;math inline&#34;&gt;\(\{\operatorname{Im}(z_{n_k})\}\)&lt;/span&gt;, obtemos
+uma subsubsequência tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\operatorname{Im}(z_{n_{k_l}})\rightarrow
+y\)&lt;/span&gt;. Ou seja, encontramos (sub)subsequência &lt;span
+class=&#34;math inline&#34;&gt;\(\{z_{n_k}\}\)&lt;/span&gt;tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\operatorname{Re}(z_{n_k})\rightarrow z\)&lt;/span&gt; e
+&lt;span class=&#34;math inline&#34;&gt;\(\operatorname{Im}(z_{n_k}) \rightarrow
+y\)&lt;/span&gt;. Donde &lt;span class=&#34;math inline&#34;&gt;\(z_{n_k} \rightarrow
+x+iy\)&lt;/span&gt;. Para concluir, basta ver que &lt;span
+class=&#34;math inline&#34;&gt;\(z \in \Omega\)&lt;/span&gt;. Como &lt;span
+class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; é limite de uma sequência de pontos em
+&lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é fechado, isto segue.&lt;br /&gt;
+(&lt;span class=&#34;math inline&#34;&gt;\(\Leftarrow\)&lt;/span&gt;): Suponha agora que
+&lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é al que toda sequüencia
+possui subsequëncia possui subseqüencia convergente em &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;. Suponha, por absurdo que &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; não é limitado. Isto significa que
+existe uma sequüencia &lt;span class=&#34;math inline&#34;&gt;\(\{z_n\}\subset
+\Omega\)&lt;/span&gt; tal que que &lt;span class=&#34;math inline&#34;&gt;\(\lim_n
+|z_n|=+\infty\)&lt;/span&gt; e isto valera também para qualquer subsequüencia.
+Logo nenhuma susequüencia poderá convergir, o que é um absurdo.&lt;/p&gt;
+&lt;p&gt;De modo análogo, suponha que &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; não é fechado e seja &lt;span
+class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; um ponto limite de &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; que não pertence a &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;. Isso garante que existe uma
+sequüencia &lt;span class=&#34;math inline&#34;&gt;\(\{z_n\}\subset \Omega\)&lt;/span&gt;
+tal que &lt;span class=&#34;math inline&#34;&gt;\(\lim_n z_n =a\)&lt;/span&gt;. Mais uma vez
+isto ocorrerá também para toda subseqëncia. Como &lt;span
+class=&#34;math inline&#34;&gt;\(a\not\in\Omega\)&lt;/span&gt; isto contradiz a hipótese
+sobre &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;. ◻&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 2&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é compacto se, e somente se, toda
+cobertura por abertos posssui subcobertura finita.&lt;br /&gt;
+(Demo como exercício).&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;obs&#34;&gt;
+&lt;p&gt;&lt;strong&gt;OBS 1&lt;/strong&gt;. &lt;em&gt;Uma cobertura por abertos do &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é uma família de abertos &lt;span
+class=&#34;math inline&#34;&gt;\(\{U_{\alpha}\}\)&lt;/span&gt;, não necessáriamente
+enumerável tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\bigcup_{\alpha}U_{\alpha} \supseteq
+\Omega.\)&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;prop&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Proposição 2&lt;/strong&gt;. &lt;em&gt;Seja &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega_1 \supseteq \Omega_2 \supseteq \Omega_3
+\supseteq \cdots\)&lt;/span&gt; uma sequência de compactos não -vazios de
+&lt;span class=&#34;math inline&#34;&gt;\(\mathbb{C}\)&lt;/span&gt; tal que &lt;span
+class=&#34;math inline&#34;&gt;\(\operatorname{diam}(\Omega_n) \rightarrow
+0\)&lt;/span&gt; quando &lt;span class=&#34;math inline&#34;&gt;\(n \rightarrow
+\infty\)&lt;/span&gt;. Então existe, um único ponto &lt;span
+class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt; tal que &lt;span class=&#34;math inline&#34;&gt;\(w
+\in \bigcap_{n}\Omega_n\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;proof&#34;&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt; Para cada &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;,
+tome &lt;span class=&#34;math inline&#34;&gt;\(z_n \in \Omega_n\)&lt;/span&gt;. Dado &lt;span
+class=&#34;math inline&#34;&gt;\(\epsilon&amp;gt;0\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(N&amp;gt;0\)&lt;/span&gt; tal que se &lt;span
+class=&#34;math inline&#34;&gt;\(n&amp;gt;N\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(diam(\Omega)&amp;lt; \epsilon\)&lt;/span&gt;. Logo, dados
+&lt;span class=&#34;math inline&#34;&gt;\(m,n &amp;gt; N\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(z_m \in \Omega_{N+1}\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(z_n \in \Omega_{N+1} \Rightarrow |z_n-z_m|
+\leqslant \operatorname{diam}
+(\Omega_{N+1})&amp;lt;\epsilon\)&lt;/span&gt;. Ou seja, &lt;span
+class=&#34;math inline&#34;&gt;\(\{z_n\}\)&lt;/span&gt; é sequência de Cauchy. Logo, a
+sequência possui limite &lt;span class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt;. Como
+&lt;span class=&#34;math inline&#34;&gt;\(z_n \in \Omega_{m} \forall n&amp;gt;m\)&lt;/span&gt;,
+temos que &lt;span class=&#34;math inline&#34;&gt;\(w \in \Omega_{m} ,\forall
+m\)&lt;/span&gt; Portanto, &lt;span class=&#34;math inline&#34;&gt;\(w \in
+\bigcap_{n}\Omega_{n}\)&lt;/span&gt;. Para ver que &lt;span
+class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt; é único, se &lt;span
+class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; é outro ponto de &lt;span
+class=&#34;math inline&#34;&gt;\(\bigcap_n\Omega_n\)&lt;/span&gt;, &lt;span
+class=&#34;math display&#34;&gt;\[|z-w|\leqslant \operatorname{diam}(\Omega_n),
+\forall n
+\Rightarrow |z-w|\leqslant 0 \Rightarrow z=w,\]&lt;/span&gt; o que é um
+absurdo. ◻&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;conectividade&#34;&gt;Conectividade&lt;/h2&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 2&lt;/strong&gt;. &lt;em&gt;Um conjunto aberto &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é conexo se não existem abertos
+disjuntos tais que &lt;span class=&#34;math display&#34;&gt;\[\Omega = \Omega_1 \cup
+\Omega_2.\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 3&lt;/strong&gt;. &lt;em&gt;&lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é um domínio se &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é aberto e conexo.&lt;br /&gt;
+&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Exercício: &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; aberto é
+conexo se, e somente se, é conexo por caminhos. Ou seja, se para todos
+&lt;span class=&#34;math inline&#34;&gt;\(z, w \in \Omega\)&lt;/span&gt;, existe um caminho
+&lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, ligando &lt;span
+class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; a &lt;span
+class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt; (ver exercício 5 do cap. 1 do livro do
+Stein para a definição de caminho).&lt;/p&gt;
+&lt;h1 id=&#34;funções-holomorfas&#34;&gt;Funções Holomorfas&lt;/h1&gt;
+&lt;h2 id=&#34;continuidade&#34;&gt;Continuidade&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Sejam &lt;span class=&#34;math inline&#34;&gt;\(f: \Omega \rightarrow
+\mathbb{C}\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(z_0 \in
+\Omega\)&lt;/span&gt;. Dizemos que &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é
+contínua em &lt;span class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; se para todo &lt;span
+class=&#34;math inline&#34;&gt;\(\epsilon&amp;gt;0\)&lt;/span&gt;, existe &lt;span
+class=&#34;math inline&#34;&gt;\(\delta&amp;gt;0\)&lt;/span&gt; tal que se &lt;span
+class=&#34;math inline&#34;&gt;\(z \in \Omega, |z-z_0|&amp;lt;\delta\)&lt;/span&gt; então
+&lt;span class=&#34;math inline&#34;&gt;\(|f(z)-f(z_0)|&amp;lt;\epsilon\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Equivalentement: Se &lt;span class=&#34;math inline&#34;&gt;\(\lim_{n \rightarrow
+\infty}z_n = z_0\)&lt;/span&gt; com &lt;span class=&#34;math inline&#34;&gt;\(z_n \in
+\Omega\)&lt;/span&gt; para todo &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt;, então
+&lt;span class=&#34;math inline&#34;&gt;\(\lim_{n \rightarrow
+\infty}f(z_n)=f(z_0)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é contínua em &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; se &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é contínua em todos os pontos de &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(z_0 \in \Omega\)&lt;/span&gt; é um ponto de
+máximo (respectivamente mínimo) se &lt;span class=&#34;math inline&#34;&gt;\(|f(z)|
+\leqslant |f(z_0)|,\forall n.\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 3&lt;/strong&gt;. &lt;em&gt;Se &lt;span class=&#34;math inline&#34;&gt;\(f:
+\Omega \Rightarrow \mathbb{C}\)&lt;/span&gt; é contínua e &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; é compacto então existem &lt;span
+class=&#34;math inline&#34;&gt;\(z_{min}\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(z_{max} \in \Omega\)&lt;/span&gt; pontos de mínimo e de
+máximo, respectivamente. (Exercício)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;holomorfas&#34;&gt;Holomorfas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f:\Omega \rightarrow
+\mathbb{C}\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;
+aberto), &lt;span class=&#34;math inline&#34;&gt;\(z_0 \in \Omega.\)&lt;/span&gt; &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; se &lt;span
+class=&#34;math display&#34;&gt;\[\lim_{h \rightarrow
+0}\dfrac{f(z_0+h)-f(z_0)}{h}\]&lt;/span&gt; existe. Neste caso, denotamos o
+limite acima por &lt;span
+class=&#34;math inline&#34;&gt;\(f&amp;#39;(z_0)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;, se &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em todo ponto &lt;span
+class=&#34;math inline&#34;&gt;\(z_0 \in \Omega.\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Se &lt;span class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; é fechado, dizemos que
+&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt; se existe &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega \supseteq C\)&lt;/span&gt; aberto tal que &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; está definida e é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega.\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Polinômios: &lt;span class=&#34;math display&#34;&gt;\[f(z) =
+a_nz^n+a_{n-1}z^{n-1}+...+a_1+a_0;\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[f&amp;#39;(z) =
+na_nz^{n-1}+(n-1)a_{n-1}z^{n-2}+\cdots+2a_2z+a_1\]&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(z) = \dfrac{1}{z}\)&lt;/span&gt; é
+holomorfa em &lt;span class=&#34;math inline&#34;&gt;\(z \neq 0\)&lt;/span&gt; com &lt;span
+class=&#34;math inline&#34;&gt;\(f&amp;#39;(z) = \dfrac{-1}{z^2}.\)&lt;/span&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Não-Exemplo: &lt;span class=&#34;math inline&#34;&gt;\(f(z) =
+\overline{z}\)&lt;/span&gt;. &lt;span
+class=&#34;math display&#34;&gt;\[\frac{f(z+h)-f(z)}{h}=\dfrac{\overline{h}}{h},\]&lt;/span&gt;
+Logo, &lt;span class=&#34;math inline&#34;&gt;\(\frac{f(z+h)-f(z)}{h}\)&lt;/span&gt; tende a
+&lt;span class=&#34;math inline&#34;&gt;\(1\)&lt;/span&gt; quando &lt;span
+class=&#34;math inline&#34;&gt;\(h\rightarrow 0\)&lt;/span&gt; por números reais e tende
+a &lt;span class=&#34;math inline&#34;&gt;\(-1\)&lt;/span&gt; quando &lt;span
+class=&#34;math inline&#34;&gt;\(h \rightarrow 0\)&lt;/span&gt; por números imaginários
+puros. Logo, o limite não existe.&lt;/p&gt;
+&lt;div class=&#34;obs&#34;&gt;
+&lt;p&gt;&lt;strong&gt;OBS 2&lt;/strong&gt;. &lt;em&gt;Isto marca um grande contraste entre
+funções holomorfas e funções diferenciáveis em &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{R}\)&lt;/span&gt;. De fato, identificando &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{C}\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{R}^2\)&lt;/span&gt;, a função acima é
+identificada com a função &lt;span class=&#34;math inline&#34;&gt;\(f(x,y) =
+(x,-y)\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Propriedades das funções holomorfas:&lt;br /&gt;
+Sejam &lt;span class=&#34;math inline&#34;&gt;\(f,g: \Omega \rightarrow
+\mathbb{C}\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt; aberto
+e &lt;span class=&#34;math inline&#34;&gt;\(z_0 \in \Omega\)&lt;/span&gt;. Suponha que &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(g\)&lt;/span&gt; são holomorfas em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt;. Então,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f+g\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\((f+g)&amp;#39;(z_0) =
+f&amp;#39;(z_0)+g&amp;#39;(z_0)\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(f \cdot g\)&lt;/span&gt; é holomorfa e
+&lt;span class=&#34;math inline&#34;&gt;\((f \cdot g)&amp;#39;(z_0) =
+f&amp;#39;(z_0)g(z_0)+f(z_0)g&amp;#39;(z_0)\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Se &lt;span class=&#34;math inline&#34;&gt;\(g(z_0) \neq 0\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(\dfrac{f}{g}\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\left(\dfrac{f}{g}\right)&amp;#39;(z_0)
+=\dfrac{f&amp;#39;(z_0)g(z_0)-f(z_0)g&amp;#39;(z_0)}{g(z_0)^2}\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sejam agora &lt;span class=&#34;math inline&#34;&gt;\(f: \Omega \rightarrow
+\mathbb{C}\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(g:\Omega&amp;#39;
+\rightarrow \mathbb{C}\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(z_0 \in
+\Omega&amp;#39;\)&lt;/span&gt; tal que &lt;span class=&#34;math inline&#34;&gt;\(g(z_0) \in
+\Omega\)&lt;/span&gt;. Suponha que &lt;span class=&#34;math inline&#34;&gt;\(g\)&lt;/span&gt; é
+holomorfa em &lt;span class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(g(z_0)\)&lt;/span&gt;. Então &lt;span
+class=&#34;math inline&#34;&gt;\(f \circ g\)&lt;/span&gt; é holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt; e &lt;span
+class=&#34;math display&#34;&gt;\[(f\circ g)&amp;#39;(z_0) = f&amp;#39;(g(z_0))\cdot
+g&amp;#39;(z_0).\]&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;equações-de-cauchy---riemann&#34;&gt;Equações de Cauchy - Riemann&lt;/h2&gt;
+&lt;p&gt;Já sabemos que se &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa
+em &lt;span class=&#34;math inline&#34;&gt;\(z\)&lt;/span&gt; então existe &lt;span
+class=&#34;math inline&#34;&gt;\(\alpha \in \mathbb{C}\)&lt;/span&gt; tal que &lt;span
+class=&#34;math display&#34;&gt;\[\lim_{h \rightarrow
+0}\dfrac{f(z+h)-f(z)}{h}=\alpha,\]&lt;/span&gt; o que é o mesmo que &lt;span
+class=&#34;math display&#34;&gt;\[\lim_{h \rightarrow 0}\dfrac{f(z+h)-f(z)-\alpha
+h}{h}=0.\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Por outro lado, &lt;span class=&#34;math inline&#34;&gt;\(f: \Omega \subseteq
+\mathbb{R}^2 \rightarrow \mathbb{R}^2\)&lt;/span&gt; é diferenciável em &lt;span
+class=&#34;math inline&#34;&gt;\((x,y)\)&lt;/span&gt; se &lt;span
+class=&#34;math display&#34;&gt;\[\lim_{(h_1,h_2)\rightarrow
+0}\dfrac{|F(x+h_1,y+h_2)-F(x,y)-T(h_1,h_2)|}
+{|(h_1,h_2)|}\]&lt;/span&gt; para alguma transformação linear &lt;span
+class=&#34;math inline&#34;&gt;\(T\)&lt;/span&gt;. Note que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(T(h_1,h_2) =
+(ah_1+bh_2,ch_1+dh_2)\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\alpha \cdot h =
+(\alpha_1+i\alpha_2)\cdot (h_1+ih_2)=
+  \alpha_1h_1-\alpha_2 h_2+i(\alpha_1h_2+\alpha_2h_1).\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Logo, escrevendo &lt;span
+class=&#34;math inline&#34;&gt;\(f(x,y)=(u(x,y),v(x,y))\)&lt;/span&gt;, temos &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{\partial f}{\partial x} = (\dfrac{\partial
+u}{\partial x},
+\dfrac{\partial v}{\partial x})=\lim_{t \rightarrow
+0}\dfrac{f(x+t,y)-f(x,y)}{t}\]&lt;/span&gt; Usando a transformação &lt;span
+class=&#34;math inline&#34;&gt;\(T\)&lt;/span&gt;, temos então que &lt;span
+class=&#34;math inline&#34;&gt;\(T(1,0)=(a,c)\)&lt;/span&gt;. De maneira analoga temos
+que &lt;span class=&#34;math inline&#34;&gt;\(T(0,1)=(b,d)\)&lt;/span&gt;. Assim, para que a
+transformação linear &lt;span class=&#34;math inline&#34;&gt;\(T\)&lt;/span&gt; corresponda
+à multiplicação por &lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt; devemos
+ter&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{aligned}
+  T(h_1,h_2)&amp;amp;= (\alpha_1h_1-\alpha_2 h_2,\alpha_2h_1+\alpha_1h_2)\\
+  &amp;amp;\Leftrightarrow a = d =\alpha_1, -b = c=\alpha_2\\
+  &amp;amp;\Leftrightarrow \frac{\partial u}{\partial x}=\frac{\partial
+v}{\partial y}
+  \text{ and }\frac{\partial v}{\partial x}=\frac{\partial u}{\partial
+y}.
+\end{aligned}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Conclusão: Se &lt;span class=&#34;math inline&#34;&gt;\(f=u+iv\)&lt;/span&gt; é uma
+função holomorfa. Então, escrevendo &lt;span
+class=&#34;math inline&#34;&gt;\(u(x,y)=u(x+iy)\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(v(x,y)=v(x+iy)\)&lt;/span&gt;, valem as relações &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{\partial u}{\partial x} = \dfrac{\partial
+v}{\partial y},
+  \dfrac{\partial v}{\partial x} = -\dfrac{\partial u}{\partial
+y},\]&lt;/span&gt; chamadas de &lt;strong&gt;Equações de
+Cauchy-Riemann&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(f: \Omega \rightarrow
+\mathbb{C}\)&lt;/span&gt; tal que ao fazer a identificação usual entre &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{C}\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\mathbb{R}^2\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; esteja associado a uma função
+diferenciável, que também denotamos por &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;. Observe que &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{\partial f}{\partial x}(z) =
+\lim_{\substack{t \rightarrow 0\\t\in \mathbb{R}}}
+\dfrac{f(z+t)-f(z)}{t}\]&lt;/span&gt; &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{\partial f}{\partial y}(z) =
+\lim_{\substack{t \rightarrow 0\\t\in \mathbb{R}}}
+\dfrac{f(z+it)-f(z)}{t}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;obs&#34;&gt;
+&lt;p&gt;&lt;strong&gt;OBS 3&lt;/strong&gt;. &lt;em&gt;Se &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;
+for holomorfa temos &lt;span class=&#34;math inline&#34;&gt;\(\dfrac{\partial
+f}{\partial x}(z_0)= f&amp;#39;(z_0)\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(\dfrac{\partial f}{\partial y}(z_0) = i
+f&amp;#39;(z_0)\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;Def&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Definição 4&lt;/strong&gt;. &lt;em&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(f:
+\Omega \rightarrow \mathbb{C}\)&lt;/span&gt; tal que ao fazer a identificação
+com &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}^2\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; seja diferenciável. Defina &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{\partial f}{\partial
+\overline{z}}=\dfrac{1}{2} \left(
+  \dfrac{\partial f}{\partial x}-\dfrac{1}{i}\dfrac{\partial f}{\partial
+y}\right),
+  \quad \dfrac{\partial f}{\partial z}=\dfrac{1}{2}\left(
+\dfrac{\partial f}{\partial x}
+  +\dfrac{1}{i}\dfrac{\partial f}{\partial y}\right).\]&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;prop&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Proposição 3&lt;/strong&gt;. &lt;em&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(f
+: \Omega \rightarrow \mathbb{C}\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(z_0 \in \Omega\)&lt;/span&gt; com &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; holomorfa em &lt;span
+class=&#34;math inline&#34;&gt;\(z_0\)&lt;/span&gt;. Então &lt;span
+class=&#34;math display&#34;&gt;\[\dfrac{\partial f}{\partial
+\overline{z}}(z_0)=0,\quad
+  f&amp;#39;(z_0) = \dfrac{\partial f}{\partial z}(z_0).\]&lt;/span&gt; Além
+disso, escrevendo &lt;span class=&#34;math inline&#34;&gt;\(f: \Omega \subseteq
+\mathbb{R}^2 \rightarrow \mathbb{R}^2\)&lt;/span&gt;, &lt;span
+class=&#34;math inline&#34;&gt;\(f(x,y)=(u(x,y),v(x,y))\)&lt;/span&gt;. Então &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é diferenciável no sentido usual e
+&lt;span class=&#34;math inline&#34;&gt;\(det(\operatorname{Jac}_f) =
+|f&amp;#39;(z_0)|^2\)&lt;/span&gt;, onde &lt;span
+class=&#34;math inline&#34;&gt;\(\operatorname{Jac}_f\)&lt;/span&gt; é o Jacobiano de
+&lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;, dado por &lt;span
+class=&#34;math display&#34;&gt;\[\operatorname{Jac}_f=\begin{pmatrix}
+  \frac{\partial u}{\partial x}&amp;amp;\frac{\partial u}{\partial y}\\
+  \frac{\partial v}{\partial x}&amp;amp;\frac{\partial v}{\partial y}
+\end{pmatrix}.\]&lt;/span&gt; .&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Teorema 4&lt;/strong&gt;. &lt;em&gt;Seja &lt;span class=&#34;math inline&#34;&gt;\(f =
+u+iv\)&lt;/span&gt; uma função definida em um aberto &lt;span
+class=&#34;math inline&#34;&gt;\(\Omega\)&lt;/span&gt;. Se &lt;span
+class=&#34;math inline&#34;&gt;\(u\)&lt;/span&gt; e &lt;span
+class=&#34;math inline&#34;&gt;\(v\)&lt;/span&gt; são diferenciáveis com derivadas
+contínuas e satisfazem as equações de Cauchy-Riemann, então &lt;span
+class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; é holomorfa e &lt;span
+class=&#34;math inline&#34;&gt;\(f&amp;#39;(z) = \dfrac{\partial f}{\partial
+z}\)&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise complexa - aula 1</title>
+      <link>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-1/</link>
+      <pubDate>Fri, 11 Aug 2023 01:46:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/post/analisecomplexa-2023.2/aula-1/</guid>
+      <description>&lt;h3 id=&#34;apresentação-do-curso&#34;&gt;Apresentação do curso.&lt;/h3&gt;
+&lt;h4 id=&#34;conceitos-gerais&#34;&gt;Conceitos Gerais&lt;/h4&gt;
+
+Nesse curso, vamos considerar $f: U \rightarrow \mathbb{C}$, onde U é um
+conjunto aberto de C. Ou seja, a princípio, isto é o mesmo que uma função
+definida em um aberto de $\mathbb{R}$, a diferença vem a seguir.
+
+&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Definição:&lt;/strong&gt;
+$f$ é dita holomorfa em um ponto $z \in \mathbb{C}$ se o limite
+$$\lim_{h\rightarrow 0}\dfrac{f(z+h)-f(z)}{h}$$ existe.
+&lt;br&gt;&lt;br&gt;
+
+Em $\mathbb{R}^2$, $f$ é dita diferenciável em $(x_0,y_0)$ se existe $D_f \in M_{2\times 2}(\mathbb{R})$ tal que $$\lim_{(u,v)\rightarrow 0}\dfrac{|f(x+u,y+v)-f(x,y)-D_f.
+\left[
+\begin{array}{c}
+u\\
+v
+\end{array}
+\right]
+|}{|(u,v)|}.$$
+Note $D_f =$
+$
+\left[
+\begin{array}{cc}
+a&amp;b \\
+c&amp;d
+\end{array}
+\right]
+$,
+$$\Rightarrow D_f.
+\left[
+\begin{array}{c}
+u\\
+v
+\end{array}
+\right]
+=
+\left[
+\begin{array}{c}
+au+bv\\
+cu+dv
+\end{array}
+\right]
+. $$
+Além disso, lembre que $$L = m+ni, h = u+iv \Rightarrow Lh = (mu-nv)+i(mv+nu).$$
+
+Veja que se tomarmos $$a=m,b=-n,c=n,d=m$$ os dois casos tornam-se equivalentes. Ou seja, f ser holomorfa é &#34;equivalente&#34; a f ser uma função definida em $\mathbb{R}^2$, diferenciável e sua matriz derivada ser da forma
+$
+\left[
+\begin{array}{cc}
+m&amp;-n\\
+n&amp;m
+\end{array}
+\right].
+$&lt;br&gt;
+Também lembre que se $f:U \subset \mathbb{C} \rightarrow \mathbb{C}$
+é dada por $f(x,y) = (f_1(x,y),f_2(x,y))$ temos $$D_f =
+\left[
+\begin{array}{cc}
+\dfrac{\partial f_1}{\partial x}&amp;\dfrac{\partial f_1}{\partial y}\\
+\dfrac{\partial f_2}{\partial x}&amp;\dfrac{\partial f_2}{\partial y}
+\end{array}
+\right]
+$$
+ou seja, pelo resultado anterior teríamos as equações de Cauchy - Riemann:$$\dfrac{\partial f_1}{\partial x}= \dfrac{\partial f_2}{\partial y}$$ e $$\dfrac{\partial f_1}{\partial y}= -\dfrac{\partial f_2}{\partial x}$$
+
+&lt;h4 id=&#34;divisão-do-curso&#34;&gt;Divisão do curso&lt;/h4&gt;
+
+O estudo de funções holomorfas vai se dividir em 2 partes:
+&lt;ul&gt;
+&lt;li&gt; Estudar propriedades de funções holomorfas. Estas serão muito mais fortes
+e mais impressionanetes que aquelas de funções diferenciáveis de $\mathbb{R}^2$
+em $\mathbb{R}^2$.&lt;/li&gt;
+&lt;li&gt; Aplicar estes resultados para algumas funções particulares.Dentre essas funções esta a função $\Gamma (s)$ e a função $\zeta(s)$.
+&lt;ul&gt;
+&lt;li&gt; A função $\Gamma$ (Generalização do fatorial)&lt;/li&gt;
+$$\Gamma(s) = (n-1)!, \forall n \in \mathbb{N}$$
+$\Gamma$ será holomorfa em quase todo ponto de $\mathbb{C}$.
+&lt;li&gt;A função $\zeta$ de Riemann.
+$$\zeta (n) = \sum _ {n \geqslant 1}\dfrac{1}{n^s},\forall s \in \mathbb{C},\mathbb{R}(s)&gt;1.$$ $\zeta$ está conectado com a disdribuição dos números primos...&lt;br&gt;
+Além disso $\zeta$ será holomorfa em quase todo ponto de $\mathbb{C}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+Dentre os resultados a serem demonstrados estão...
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Integral de contorno.&lt;/strong&gt; Se $f$ é holomorfa em um aberto $U$ e $\gamma$ é um contornofechado totalmente contido em $U$ então $$\int_{\gamma}f(z)dz=0.$$&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Regularidade.&lt;/strong&gt; Se $f$ é holomorfa em $U \subset \mathbb{C}$ um aberto, $f$ é infinitamente derivável em $U$.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Continuação analítica.&lt;/strong&gt; Se $f$ e $g$ são holomorfas,e em $U \subset \mathbb{C}$ aberto e $f=g$ em um disco $B_{\delta}(z_0)=\{z \in \mathbb{C},|z-z_0|&lt;\delta\}$ para algum $\delta$ e algum $z_0$, então $f=g$ em $U$.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;preliminares-sobre-números-complexos&#34;&gt;Preliminares sobre números complexos.&lt;/h3&gt;
+&lt;h4 id=&#34;os-número-complexos&#34;&gt;Os número complexos.&lt;/h4&gt;
+
+$$z= x+iy , x,y \in \mathbb{R}$$
+$$x = \operatorname{Re}(z) , y = \operatorname{Im}(z)$$
+$$\mathbb{C} \leftrightarrow \mathbb{R}^2$$
+
+&lt;ul&gt;
+&lt;li&gt; Quando $y=0 \Rightarrow z = x $, $z$ é um n&#39;úmero real. Logo, o eixo $x(y=0)$ será chamado de eixo real.$\mathbb{R} \leftrightarrow$ eixo $x$. &lt;/li&gt;
+&lt;li&gt; Quando $x=0 \Rightarrow z = iy, y \in \mathbb{R}$.Dizemos que z é totalmente imaginário, chamamos o eixo y de eixo imaginário.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt; Regras de adição e multiplicação. &lt;/h4&gt;
+
+Sejam $z_1 = x_1+iy_1$, $z_2 = x_2+iy_2$ $\in \mathbb{C}$, então
+&lt;ul&gt;
+&lt;li&gt; $z_1+z_2 = (x_1+x_2)+i(y_1+y_2)$&lt;/li&gt;
+&lt;li&gt; $z_1\cdot z_2 = (x_1x_2-y_1y_2)+i(x_1y_2+x_2y_1)$&lt;/li&gt;
+&lt;/ul&gt;
+Em particular $i^2=-1$. É fácil mostrar que vale: comutatividade,
+associatividade e distributividade.
+
+Note que a soma nos complexos é análoga a soma dos vetores em $\mathbb{R}$, entretanto o produto não é dado de forma tão simples, o produto entre complexos está associado a rotomotetia , ou seja, uma rotação seguida de rotação. Exemplo:
+$$i(x+iy) = -y+ix$$
+$$\langle (x,y), (-y,x)\rangle = 0$$
+
+&lt;h4 id=&#34;distância-e-conjugado&#34;&gt;Distância e Conjugado&lt;/h4&gt;
+
+Seja $z = x+iy, x,y \in \mathbb{R}$, definimos $|z| = \sqrt{x^2+y^2}$, vale
+então a desigualdade triangular, $|z+w| \leqslant |z|+|w|$, cuja demonstração
+virá em outro momento. Outras relações um pouco mais imediatas são que $|x|
+\leqslant |z|$ e $|y| \leqslant |z|$.&lt;br&gt;
+
+Será interessante tambéma a definicão do conjulgado de $z = x+iy$, dado por $\overline{z} = x-iy$.Note que a representação no $\mathbb{R}$, $\overline{z}$ é a reflexão de $z$ em relação ao eixo real. Essa definicão é conveniente para escrevermos:
+&lt;ul&gt;
+&lt;li&gt; $z+\overline{z} = 2x \Rightarrow x = \dfrac{z+\overline{z}}{2}$&lt;/li&gt;
+&lt;li&gt; $z-\overline{z} = 2y \Rightarrow y = \dfrac{z-\overline{z}}{2}$&lt;/li&gt;
+&lt;li&gt; $z.\overline{z} = |z|^2$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt; Forma polar&lt;/h4&gt;
+$$(x,y) = (rcos(\theta),rsen(\theta))$$
+Todo número complexo se escreve como $z = rcos\theta + ir sen\theta = r(cos\theta + i sen \theta )=:r cis \theta$. Ou seja, por enquanto $e^x$ é a função exponencial do calculo quando $x \in \mathbb{R}$ e será da forma $cis\theta$ quando $x$ for da forma $i\theta$ com $\theta \in \mathbb{R}$. Mais pra frente definiremos $e^z ,\forall z \in \mathbb{C}$ de modo a contemplar as duas definições acima. &lt;br&gt;
+Para justificar um pouco a notação, vale a pena verificar as seguintes propriedades
+
+&lt;ol&gt;
+&lt;li&gt; $e^{i\theta}.e^{i\beta} = e^{i(\theta+\beta)}$,&lt;/li&gt;
+&lt;li&gt; $(e^{i\theta})^m = e^{im\theta},m \in \mathbb{Z}$.&lt;/li&gt;
+&lt;/ol&gt;
+As demonstrações ficam como exercício para o leitor.&lt;br&gt;
+De todo modo, se $z = r.e^{i\theta}$ e $w = s .e^{i\beta}$,$$zw = rse^{i(\theta+\beta)}$$
+&lt;h4&gt; Sequências&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Sequências
+
+Seja $\{z_n\}_{n\in \mathbb{N}}$ uma sequência de números complexos e $w \in \mathbb{C}$.
+Dizemos que $z_n$ converge para $w$ e escrevemos
+$\lim_{n \rightarrow \infty} = w$ se $\lim_{n \rightarrow \infty}|z_n-w| = 0.$&lt;br&gt;
+
+Esta noção é a mesma noção de convergência de vetores em $\mathbb{R}^2$. Em particular $\lim_{n \rightarrow \infty} = w$ se, e somente se,
+$$
+\begin{cases}
+  \lim_{n \rightarrow \infty}\operatorname{R}(z_n) = \operatorname{Re}(w)\\
+  \lim_{n \rightarrow \infty}\operatorname{Im}(z_n) = \operatorname{Im}(w).
+\end{cases}
+$$
+Demonstração fica como exercício para o leitor.&lt;/li&gt;
+&lt;li&gt; Sequências de Cauchy &lt;br&gt;
+Uma sequência $\{z_n\}_{n \in \mathbb{N}}$ é dita de Cauchy se para todo $\varepsilon&gt;0$,
+existe $N \in \mathbb{N}$ tal que se $m,n \geqslant N$ então $|z_n-z_m|&lt; \varepsilon.$&lt;/li&gt;
+&lt;/ul&gt;
+Pela desigualdade triângular, toda sequência convergente é de Cauchy. Ademais, lembre que $\mathbb{R}$ é completo, isto é, toda sequência de Cauchy de números reais possui limite real.Logo temos o teorema:
+
+&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Teorema:&lt;/strong&gt; $\mathbb{C}$ é completo.
+&lt;br&gt;&lt;br&gt;
+
+PV:Seja $\{z_n\}_{n \in \mathbb{N}}$ uma sequência de Cauchy, então as partes reais e imaginárias de $z_n$ são de Cauchy e devido a completude de $\mathbb{R}$, essas sequências convergem pra $a$ e $b$, respectivamente. Logo, temos que $\lim_{n \rightarrow \infty}z_n = a+ib$, por tanto $\{z_n\}$ converge.
+
+&lt;h4&gt; Conjuntos de $\mathbb{C}$.&lt;/h4&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Definição (Disco Aberto):&lt;/strong&gt;
+Seja $z_0 \in \mathbb{C},\delta &gt;0$, definimos $$D_{\delta}(z_0) = \{z\in \mathbb{C}:|z-z_0|&lt;\delta \}$$ como disco aberto de centro $z_0$ e raio $\delta.$
+&lt;br&gt;&lt;br&gt;
+
+&lt;strong&gt;Definição (Disco Fechado):&lt;/strong&gt;
+Seja $z_0 \in \mathbb{C},\delta &gt;0$, definimos $$\overline{D_{\delta}}(z_0) = \{z\in \mathbb{C}:|z-z_0|\leqslant \delta \}$$ como disco fechado de centro $z_0$ e raio $\delta.$
+&lt;br&gt;&lt;br&gt;
+
+&lt;strong&gt;Definição (Círculo):&lt;/strong&gt; $$C_{\delta}(z_0) = \{z \in \mathbb{C}; |z-z_0|= \delta\}$$ é o círculo de centro $z_0$ e raio $\delta$.
+&lt;br&gt;&lt;br&gt;
+
+Notação especial: $$\mathbb{D} = D_1(0) = \{ z \in \mathbb{C} ; |z|&lt;1\}.$$
+
+Seja $\Omega \subset \mathbb{C}$ um conjunto, o interior de $\Omega$, denotado por
+$\Omega^\circ$ ou $\operatorname{int}(\Omega)$
+ é o conjunto
+ $$\{z \in \Omega; \text{ existe } \delta = \delta(z) : D_{\delta}(z) \subset \Omega \}.$$
+
+
+&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Definição (Conjunto Aberto):&lt;/strong&gt;
+$\Omega$ é aberto se $\Omega = \operatorname{int}(\Omega)$
+&lt;br&gt;&lt;br&gt;
+
+&lt;strong&gt;Definição (Conjunto Fechado):&lt;/strong&gt;
+$\Omega$ é fechado se $\Omega^c$ é aberto.
+&lt;br&gt;&lt;br&gt;
+
+&lt;strong&gt;Definição:&lt;/strong&gt;
+Seja $\Omega \subset \mathbb{C}$ um conjunto e $z \in \mathbb{C}$. Dizemos que $z$ é um ponto limite de $\Omega$ se existe uma sequência $\{z_n\}$ de pontos em $\Omega$ tal que $\lim_{n \rightarrow \infty}z_n=z.$
+&lt;br&gt;&lt;br&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Thematic Session - Analytic Number Theory</title>
+      <link>https://ramonmn.com/new/talk/thematic-session-analytic-number-theory/</link>
+      <pubDate>Thu, 27 Jul 2023 14:15:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/talk/thematic-session-analytic-number-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strong Subconvexity for Self-Dual GL(3) L-Functions</title>
+      <link>https://ramonmn.com/new/publication/linetal-2022-strong/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/linetal-2022-strong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moments of the Distribution of $k$-Free Numbers in Short Intervals and Arithmetic Progressions</title>
+      <link>https://ramonmn.com/new/publication/m-nunes-2022-moments/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/m-nunes-2022-moments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral Reciprocity via Integral Representations</title>
+      <link>https://ramonmn.com/new/publication/nunes-2021-spectral/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2021-spectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral Reciprocity for GL$(n)$ and Simultaneous Non-Vanishing of Central $L$-Values</title>
+      <link>https://ramonmn.com/new/publication/jananunes-2021-spectral/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/jananunes-2021-spectral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Twelfth Moment of Dirichlet L-functions with Smooth Moduli</title>
+      <link>https://ramonmn.com/new/publication/nunes-2021-twelfth/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2021-twelfth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://ramonmn.com/new/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the Least Squarefree Number in an Arithmetic Progression</title>
+      <link>https://ramonmn.com/new/publication/nunes-2017-least/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2017-least/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Bourgain&#39;s bound for short exponential sums and squarefree numbers</title>
+      <link>https://ramonmn.com/new/publication/nunes-2016-bourgain/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2016-bourgain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Squarefree Numbers in Arithmetic Progressions</title>
+      <link>https://ramonmn.com/new/publication/nunes-2015-squarefree/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2015-squarefree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Equidistribution problems of squarefree numbers</title>
+      <link>https://ramonmn.com/new/publication/nunesequidistribution/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunesequidistribution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ramonmn.com/new/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

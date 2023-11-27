@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Academic</title>
+    <link>https://ramonmn.com/new/event/</link>
+      <atom:link href="https://ramonmn.com/new/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Sep 2023 09:00:00 -0300</lastBuildDate>
+    <image>
+      <url>https://ramonmn.com/new/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://ramonmn.com/new/event/</link>
+    </image>
+    
+    <item>
+      <title>Automorphic Forms and L-functions of higher rank</title>
+      <link>https://ramonmn.com/new/talk/automorphic-forms-and-l-functions-of-higher-rank/</link>
+      <pubDate>Mon, 11 Sep 2023 09:00:00 -0300</pubDate>
+      <guid>https://ramonmn.com/new/talk/automorphic-forms-and-l-functions-of-higher-rank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thematic Session - Analytic Number Theory</title>
+      <link>https://ramonmn.com/new/talk/thematic-session-analytic-number-theory/</link>
+      <pubDate>Thu, 27 Jul 2023 14:15:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/talk/thematic-session-analytic-number-theory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

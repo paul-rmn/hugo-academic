@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arithmetic progressions | Academic</title>
+    <link>https://ramonmn.com/new/tag/arithmetic-progressions/</link>
+      <atom:link href="https://ramonmn.com/new/tag/arithmetic-progressions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arithmetic progressions</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ramonmn.com/new/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Arithmetic progressions</title>
+      <link>https://ramonmn.com/new/tag/arithmetic-progressions/</link>
+    </image>
+    
+    <item>
+      <title>Squarefree Numbers in Arithmetic Progressions</title>
+      <link>https://ramonmn.com/new/publication/nunes-2015-squarefree/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://ramonmn.com/new/publication/nunes-2015-squarefree/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
