@@ -81,7 +81,7 @@ sections:
 
               * Participating in boring meetings 
               * Grading exams
-              * Attending badly-designed courses on improving teaching habilities
+              * Attending badly-designed courses on how to improve teaching habilities
         - title: Visiting Scholar
           company: Max-Planck Institut für Mathematik
           company_url: 'https://www.mpim-bonn.mpg.de'
